@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.nav-bar{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-manu{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    gap: 20px;
+}
+.nav-manu a{
+    text-decoration: none;
+    padding: 5px 10px;
+
+    font-size: 1.2rem;
+    border: 1px solid rgb(203, 106, 106);
+    border-radius: 50px;
+    color: rgb(23, 20, 26);
+    font-width: 800;
+    transition: .03s;
+}
+.nav-manu a:hover{
+    background-color: rgb(222, 184, 135,0.4);
+    }

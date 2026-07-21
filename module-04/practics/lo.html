@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .login-container {
+            background-image: url("images/backgroundimage.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            backdrop-filter: blur(20px);
+            padding: 20px;
+            box-sizing: 1px 1px 20px rgba(0,0,0,.7);
+            border-radius: 20px;
+        }
+
+        .login-box h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 500;
+            color: white;
+        }
+        
+        .input-box {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+        }
+
+        .input-box input {
+            height: 30px;
+            background-color: transparent;
+            outline: none;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            border-radius: 20px;
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 5px 40px 5px 10px;
+            color: white;
+            font-size: 1rem;
+
+        }
+
+        .input-box label {
+            text-align: center;
+            font-size: 1rem;
+            color: white;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .input-box input::placeholder {
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        .input-box i{
+            position: absolute;
+            color:white;
+            right: 15px;
+            top: 50%;
+            /* transform: translateY(-50%); */
+        }
+        .remember-forget{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .remember-forget a{
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+        .remember-forget a:hover{
+            text-decoration: underline;
+        }
+        .button{
+            width: 100%;
+            height: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            background-color: white;
+            box-shadow: 1px 1px 20px rgba(2, 2, 2, 0.2);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: .9rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            transition: 0.3s;
+        }
+        .button:hover{
+            box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7);
+            transform: translateY(-2px);
+        }
+
+        .reg-link{
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-size: 1rem;
+        }
+        .reg-link a{
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+        .reg-link a:hover{
+            text-decoration: underline;
+        }
+        
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login </h2>
+            <div class="input-box">
+                <label for="username">username</label>
+                <input type="text" name="" id="" placeholder="username" required>
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+            <div class="input-box">
+                <label for="password">password</label>
+                <input type="password" placeholder="password" required>
+                <i class="fa-solid fa-lock"></i>
+
+            </div>
+            <div class="remember-forget">
+                <label for=""><input type="checkbox">Remenber me</label>
+                <a href="#">Forget password?</a>
+            </div>
+
+            <button type="submit" class="button">Login</button>
+            <div class="reg-link">
+                Don't have any account? <a href="">Register</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

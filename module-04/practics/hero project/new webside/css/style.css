@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #e6e3de;
+    --secondary-color : #FF902A;
+    --light-clor : #F6EBDA; 
+    --white: #ffffff;
+    --black: #1d1d1d;
+}
+body{
+    font-family:"Plus Jakarta Sans",sans-serif;
+    background-color: var(--light-clor);
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.contaner{
+    max-width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--light-clor);
+    padding: 25px 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.nav-manu{
+    display: flex;
+    gap: 40px;
+}
+.nav-manu li{
+    margin-right: 40px;
+}
+.nav-manu a{
+    color: var(--primary-color);
+    font-weight: 700;
+    transition: .3s;
+}
+.nav-manu a:hover{
+    color: var(--secondary-color);
+}
+.button{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: .3s;
+}
+.button:hover{
+    opacity: .9;
+}
+.header{
+    min-height: 100vh;
+    background-image: url("../images/backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+.hero-contant{
+    width: 50%;
+}
+.hero-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.hero-title{
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 24px;
+}
+.hero-description{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 40px;
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.menu-link{
+    color: var(--primary-color);
+    font-weight: 500;
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #eef1f2;
+    --secondary-color: #f59228;
+}
+
+body{
+    color: var(--primary-color);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+.header{
+    padding: 25px 0;
+    background-color: var(--secondary-color);
+}
+
+.container{
+    max-width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-manu{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-manu a{
+    color: var(--primary-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.nav-manu a:hover{
+    color: var(--secondary-color);
+}
+.button{
+    background-color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    padding: 14px 28px;
+    border-radius: 50px;
+    color: var(--secondary-color);
+    font-weight: 500;
+    transition: .3s;
+}
+.button:hover{
+    opacity: 0.9;
+}
+
+.logo{
+    font-weight: 800;
+    color: var(--primary-color);
+    font-size: 26px;
+}
+
+.header{
+    background-image: url("/images/backgroundimage.png");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.hero{
+    display: flex;
+    min-height: 80vh;    
+    align-items: center;
+}
+.hero-contant{
+    width: 50%;
+}
+.hero-subtitle{
+    font-size: 20px;
+    letter-spacing: 20%;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hero-title{
+    font-size: 64px;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.hero-description{
+    font-size: 18px;
+    line-height: 26px;
+    color: antiquewhite;
+    margin-bottom: 40px;
+}
+.hero-button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.manu-link{
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.hero-down{
+    max-height: 100vh;
+    background-color: #E2D9C8;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}

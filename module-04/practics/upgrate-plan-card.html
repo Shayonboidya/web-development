@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Plans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/ChatGPT-Logo.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            background-color: #F3F3F3;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            height: 100vh;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .type {
+            width: 270px;
+            height: 55px;
+            background-color: #ECECEC;
+            border-radius: 50px;
+            display: flex;
+            padding: 5px;
+
+        }
+
+        .button {
+            flex: 1;
+            height: 45px;
+            border: none;
+            background-color: transparent;
+            border-radius: 50px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #888;
+            transition: 0.3s;
+
+        }
+
+        .active {
+            background-color: #fff;
+            color: #000;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, .12);
+        }
+
+        .card-box {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .card {
+            background-color: #fff;
+            width: 350px;
+            border: 1px solid rgba(0, 0, 0, .12);
+            box-shadow: 1px 1px 12px rgba(0, 0, 0, .12);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .card h2 {
+            font-size: 34px;
+            font-weight: 500;
+            margin-bottom: 40px;
+
+        }
+
+        .price {
+            margin-bottom: 20px;
+        }
+
+        .dollar {
+            font-size: 20px;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .number {
+            font-size: 58px;
+            font-weight: 800;
+            /* line-height: 1; */
+        }
+
+        .month {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 8px;
+        }
+
+        .card h4 {
+            font-size: 1rem;
+            margin-bottom: 20px;
+
+        }
+
+        .current-plan {
+            width: 100%;
+            padding: 16px 26px;
+            height: 46px;
+            border-radius: 40px;
+            border: 1px solid rgba(0, 0, 0, .12);
+            background-color: transparent;
+            font-size: 1rem;
+            color: #999;
+            cursor: pointer;
+            margin-bottom: 30px;
+
+        }
+        .go-plan-pro{
+            background-color: #000;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .fetures {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            font-size: 0.9rem;
+        }
+
+        .feture i {
+            width: 22px;
+            font-size: 1rem;
+        }
+
+        .fotter {
+            font-size: 12px;
+            color: #777;
+        }
+
+        .fotter a {
+            color: #000;
+            font-weight: 600;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="content">
+                <h2>Upgrade your plan</h2>
+                <div class="type">
+                    <button class="button active" type="button">Personal</button>
+                    <button class="button" type="button">Business</button>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <h2>Free</h2>
+                    <div class="price">
+                        <sup class="dollar">$</sup>
+                        <span class="number">0</span>
+                        <sub class="month">USD/month</sub>
+                    </div>
+                    <h4>See what AI can do</h4>
+                    <button type="button" class="current-plan">Your currnt plan</button>
+
+                    <div class="fetures">
+                        <!-- card -1 -->
+                        <div class="feture">
+                            <i class="fa-regular fa-star"></i>
+                            <span>Core model</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-comment"></i>
+                            <span>Limited messages and uploads</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-image"></i>
+                            <span>Limited image creation</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Limited memory</span>
+                        </div>
+
+                        <p class="fotter">
+                            Have an existing plan? <a href="#">See billing help</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- card-2 -->
+                <div class="card">
+                    <h2>Go</h2>
+                    <div class="price">
+                        <sup class="dollar">$</sup>
+                        <span class="number">5</span>
+                        <sub class="month">USD/month</sub>
+                    </div>
+                    <h4>Keep chatting with expanded access</h4>
+                    <button type="button" class="current-plan go-plan-pro">Upgrade to GO</button>
+
+                    <div class="fetures">
+                        <div class="feture">
+                            <i class="fa-regular fa-star"></i>
+                            <span>Core model</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-comment"></i>
+                            <span>More messages and uploads</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-image"></i>
+                            <span>More image creation</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Longer memory</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Expanded voice mode</span>
+                        </div>
+
+                        <p class="fotter">
+                            This plan may include ads. <a href="#">See billing help</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- card-3 -->
+                <div class="card">
+                    <h2>Plus</h2>
+                    <div class="price">
+                        <sup class="dollar">$</sup>
+                        <span class="number">20</span>
+                        <sub class="month">USD/month</sub>
+                    </div>
+                    <h4>Unlock the full experience</h4>
+                    <button type="button" class="current-plan">Upgrade to plus</button>
+
+                    <div class="fetures">
+                        <div class="feture">
+                            <i class="fa-regular fa-star"></i>
+                            <span>Advanced models</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-comment"></i>
+                            <span>Advanced image creation with Thinking</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-image"></i>
+                            <span>Expanded memory across chats</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Codex coding agent</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Expanded deep research</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Projects and custom GPTs</span>
+                        </div>
+
+                        <!-- <p class="fotter">
+                            Have an existing plan? <a href="#">See billing help</a>
+                        </p> -->
+                    </div>
+                </div>
+
+
+                <!-- card -4 -->
+                <div class="card">
+                    <h2>Pro</h2>
+                    <div class="price">
+                        <sup class="dollar">$</sup>
+                        <span class="number">115</span>
+                        <sub class="month">USD/month</sub>
+                    </div>
+                    <h4>Maximize your productivity</h4>
+                    <button type="button" class="current-plan go-plan-pro">Upgrade to Pro</button>
+
+                    <div class="fetures">
+                        <div class="feture">
+                            <i class="fa-regular fa-star"></i>
+                            <span>5x or 20x more usage than Plus</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-comment"></i>
+                            <span>Frontier Pro model </span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-regular fa-image"></i>
+                            <span>Maximum access to Codex</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Maximum deep research</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Unlimited core chat</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Unlimited and faster image creation</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Maximum memory and context</span>
+                        </div>
+                        <div class="feture">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Early access to experimental features</span>
+                        </div>
+
+                        <p class="fotter">
+                            Unlimited subject to abuse guardrails. <a href="#">Learn about limits and promos on both
+                                tiers
+                                I need help with a billing issue</a>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
