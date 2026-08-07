@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Closure Interview Questions</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+        :root {
+            --primary: #2563eb;
+            --primary-bg: #eff6ff;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+            --code-bg: #0f172a;
+            --code-text: #e2e8f0;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: 40px 20px;
+            background-color: #f8fafc;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: var(--primary);
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 16px;
+        }
+
+        .question-card {
+            margin-bottom: 30px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .question-title {
+            background-color: var(--primary-bg);
+            color: var(--primary);
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .answer-body {
+            padding: 20px;
+            font-size: 15px;
+        }
+
+        .answer-body p {
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        pre {
+            background-color: var(--code-bg);
+            color: var(--code-text);
+            font-family: 'Fira Code', monospace;
+            padding: 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            overflow-x: auto;
+            margin: 12px 0;
+            line-height: 1.5;
+        }
+
+        code {
+            font-family: 'Fira Code', monospace;
+            background: #f1f5f9;
+            color: #d97706;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        pre code {
+            background: transparent;
+            color: inherit;
+            padding: 0;
+        }
+
+        .highlight-output {
+            background-color: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 10px 15px;
+            margin: 10px 0;
+            font-family: 'Fira Code', monospace;
+            font-size: 14px;
+            color: #78350f;
+            border-radius: 0 4px 4px 0;
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .question-card {
+                page-break-inside: avoid;
+            }
+
+            pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>JavaScript Closure Interview Questions</h1>
+            <p>JavaScript Interview Preparation Guide</p>
+        </header>
+
+        <!-- Q1 -->
+        <div class="question-card">
+            <div class="question-title">Q1. Closure কী? (এক লাইনে)</div>
+            <div class="answer-body">
+                <p><strong>Ans:</strong> Closure হলো এমন একটি feature যেখানে একটি inner function তার outer (lexical) scope-এর variables মনে রাখতে পারে এবং outer function শেষ হওয়ার পরেও সেই variables access করতে পারে।</p>
+            </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="question-card">
+            <div class="question-title">Q2. Closure আর Normal Function এর পার্থক্য কী?</div>
+            <div class="answer-body">
+                <p><strong>Ans:</strong></p>
+                <p><strong>Normal Function:</strong></p>
+                <ul>
+                    <li>Outer function শেষ হলে তার local variables নষ্ট হয়ে যায়।</li>
+                    <li>Local variables পরে access করা যায় না।</li>
+                </ul>
+
+                <p><strong>Closure:</strong></p>
+                <ul>
+                    <li>Inner function outer function-এর variables মনে রাখে।</li>
+                    <li>Outer function শেষ হলেও সেই variables ব্যবহার করতে পারে।</li>
+                </ul>
+
+                <p><strong>Example:</strong></p>
+<pre><code>function createCounter() {
+    let count = 0;
+
+    return function () {
+        return ++count;
+    };
+}
+
+const counter = createCounter();
+
+counter(); // 1
+counter(); // 2
+counter(); // 3</code></pre>
+                <p>এখানে <code>count</code> variable-টি <code>createCounter()</code> শেষ হওয়ার পরেও মনে রাখা হয়েছে। এটাই <strong>Closure</strong>।</p>
+            </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="question-card">
+            <div class="question-title">Q3. Closure দিয়ে private variable কীভাবে বানাবেন?</div>
+            <div class="answer-body">
+                <p><strong>Ans:</strong> Closure ব্যবহার করে variable-কে বাইরের code থেকে hide (private) রাখা যায়।</p>
+                <p><strong>Example:</strong></p>
+<pre><code>function cashCounter() {
+    let amount = 0; // private variable
+
+    return function(pay = 0){
+        amount += pay;
+        return amount;
+    };
+}
+
+const shop = cashCounter();
+
+shop(100); // 100
+shop(50);  // 150
+
+console.log(amount);</code></pre>
+
+                <div class="highlight-output">
+                    <strong>Output:</strong> ReferenceError: amount is not defined
+                </div>
+                <p><strong>কারণ:</strong> <code>amount</code> শুধুমাত্র <code>cashCounter()</code> এর ভিতরে থাকে। এটি বাইরের code থেকে সরাসরি access করা যায় না।</p>
+            </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="question-card">
+            <div class="question-title">Q4. Loop এ var ব্যবহার করলে setTimeout ভুল output দেয় কেন?</div>
+            <div class="answer-body">
+                <p><strong>Ans:</strong> কারণ <code>var</code> হলো function-scoped। Loop শেষ হওয়ার পর সব callback একই variable share করে।</p>
+                <p><strong>Example (Problem):</strong></p>
+<pre><code>for(var i = 1; i <= 3; i++){
+    setTimeout(()=>{
+        console.log(i);
+    }, 1000);
+}</code></pre>
+                <div class="highlight-output">
+                    <strong>Output:</strong> 4, 4, 4
+                </div>
+                <p><strong>কারণ:</strong> Loop শেষ হওয়ার পর <code>i = 4</code> হয়ে যায়। সব callback একই <code>i</code> variable রেফার করে।</p>
+
+                <p style="margin-top: 15px;"><strong>সমাধান:</strong> <code>let</code> ব্যবহার করলে প্রতিটি iteration-এর জন্য নতুন block-scope variable তৈরি হয়।</p>
+<pre><code>for(let i = 1; i <= 3; i++){
+    setTimeout(()=>{
+        console.log(i);
+    }, 1000);
+}</code></pre>
+                <div class="highlight-output">
+                    <strong>Output:</strong> 1, 2, 3
+                </div>
+            </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="question-card">
+            <div class="question-title">Q5. Closure কি Memory Leak তৈরি করতে পারে? কেন?</div>
+            <div class="answer-body">
+                <p><strong>Ans:</strong> হ্যাঁ, পারে।</p>
+                <p>কারণ Closure outer function-এর variables memory-তে ধরে রাখে যতক্ষণ inner function-এর reference বেঁচে থাকে।</p>
+                <p>যদি অনেক বড় object বা unnecessary data closure-এর ভিতরে ধরে রাখা হয় এবং reference remove না করা হয়, তাহলে Garbage Collector সেটি memory থেকে release করতে পারে না। এতে memory leak হওয়ার সম্ভাবনা থাকে।</p>
+                <p><em>নোট: সাধারণভাবে Closure নিজে কোনো memory leak নয়। কিন্তু অসাবধানতাবশত অপ্রয়োজনীয় reference ধরে রাখলে memory leak হতে পারে।</em></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
