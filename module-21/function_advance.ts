@@ -1,4 +1,4 @@
-function add2(num1 :number, num2 :number):number[]{
+function add5(num1 :number, num2 :number):number[]{
     const total = num1 + num2;
     return [total];
 }
