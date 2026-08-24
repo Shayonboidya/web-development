@@ -2,8 +2,8 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "rootDir": "D:/web devolopment/module-24/src",
+    "outDir": "D:/web devolopment/module-24/dist",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
