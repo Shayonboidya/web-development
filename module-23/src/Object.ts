@@ -1,7 +1,7 @@
-const student :{name : string, age : number,id : number} ={
-    name : "shayon Boidya",
-    age : 21,
-    id : 2402017
+const student: { name: string, age: number, id: number } = {
+    name: "shayon Boidya",
+    age: 21,
+    id: 2402017
 };
 
 console.log(student.name);
