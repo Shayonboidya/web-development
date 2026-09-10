@@ -7,3 +7,15 @@ const student: { name: string, age: number, id: number } = {
 console.log(student.name);
 console.log(student.age);
 console.log(student.id);
+
+
+const creatStudent = (name:string, age:number , id:number) => {
+    const obj = {name, age, id};
+    return obj;
+}
+
+const rafi = creatStudent("rafi", 23, 22);
+console.log(rafi);
+
+const nafisha = creatStudent("nafisha",22, 389);
+console.log(nafisha);
