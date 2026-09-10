@@ -20,5 +20,5 @@ class Student {
     
 }
 
-const sh = new Student("Shayon", 21,"shayon@11",90);
-console.log(sh.getINfo());
+const sh = new Student("Shayon", 21,"shayon@11gamil.com",90);
+sh.getINfo();
