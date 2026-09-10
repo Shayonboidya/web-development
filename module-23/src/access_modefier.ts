@@ -36,4 +36,4 @@ const user1 = new Bkash_acount("01936864394",2005,"2580","none");
 // user1.pin = "2333"//error
 // user1.history = "hello"; //error
 console.log(user1.get_blance("2580"));
-user1.display();
+// user1.display();
