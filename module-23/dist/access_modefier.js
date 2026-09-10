@@ -36,6 +36,6 @@ const user1 = new Bkash_acount("01936864394", 2005, "2580", "none");
 // user1.blance = 0;//error
 // user1.pin = "2333"//error
 // user1.history = "hello"; //error
-user1.get_blance("2580");
-user1.display();
+console.log(user1.get_blance("2580"));
+// user1.display();
 //# sourceMappingURL=access_modefier.js.map
