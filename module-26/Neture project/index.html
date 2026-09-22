@@ -5,11 +5,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neature Platter</title>
+    <!-- tailwind connect -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
 </head>
 
 <body>
+    <header class="bg-[#EFEBE3]">
+        <nav class="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 p-5">
+
+            <img src="./assets/nav-logo.png" alt="" class="max-w-25 h-auto">
+
+            <ul class="hidden md:flex gap-4 items-center justify-center">
+                <li class="font-bold"><a href="#">Product </a></li>
+                <li class="font-bold"><a href="#">Servies </a></li>
+                <li class="font-bold"><a href="#">Contuct Us </a></li>
+            </ul>
+
+            <div class="hidden md:flex gap-3 items-center justify-end ">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                <button class="rounded font-semibold px-4 py-1 border-2 border-green-500">Login</button>
+                <button
+                    class="rounded font-semibold px-4 py-1 border-2 border-green-500 text-white bg-green-500">Register</button>
+                    
+                </div>
+                <span class="text-right inline-block md:hidden"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+
+        <section class="text-center mt-12">
+            <div class="max-w-[40%] mx-auto">
+                <h2 class="font-bold text-5xl">Freshness <span class="text-green-500">You Can
+                        Count </span>On, Prices You’ll Love!</h2>
+                <p class="my-4 text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+                    covered every day!</p>
+            </div>
+
+
+            <img src="./assets/Hero Section 1.png" alt="" class="mx-auto max-w-100  md:max-w-150 h-auto:">
+        </section>
+
+
+    </header>
+
+    <!-- services -->
+    <section class="container mx-auto my-20">
+        <h2 class="text-4xl text-green-500 font-bold mb-10" >
+            Services
+        </h2>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-[#EFEBE3] text-center rounded-2xl p-4">
+                <img src="./assets/service.png" alt="" class="mx-auto  bg-white rounded-[100%] p-5">
+                <h2 class="font-semibold text-lg m-1">24/7 Services</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, similique!</p>
+            </div>
+            <div class="bg-[#EFEBE3] text-center rounded-2xl p-4">
+                <img src="./assets/delivery.png" alt="" class="mx-auto  bg-white rounded-[100%] p-5">
+                <h2 class="font-semibold text-lg m-1">Fast Delivery</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, similique!</p>
+            </div>
+            <div class="bg-[#EFEBE3] text-center rounded-2xl p-4">
+                <img src="./assets/products.png" alt="" class="mx-auto bg-white rounded-[100%] p-5">
+                <h2 class="font-semibold text-lg m-1">Healthy Products </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, similique!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- POPULAR PRODUCT -->
+
+    <section class="container mx-auto my-20">
+        <h2 class="text-4xl text-green-500 font-bold mb-10">Popular Product</h2>
+
+        <div class="grid grid-cols-12 gap-4">
+            <div class="bg-green-500 p-5 col-span-12 md:col-span-3 rounded-2xl space-y-2 bg-linear-to-br from-lime-500 to-lime-200">
+                <h2 class="text-2xl font-semibold mb-2">30% off</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, atque.</p>
+                <button
+                    class="rounded font-semibold px-4 py-1 border-2 border-green-500 bg-white">Bey Now</button>
+                    <img src="./assets/popular.png" alt="">
+            </div>
+            <div class="col-span-12 md:col-span-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50 ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50 ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50 ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50 ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50 ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50  ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50 ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50  ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 p-4 rounded-md border border-gray-300 bg-gray-50  ">
+                    <img src="./assets/onion.png" alt="" class="p-3">
+                    <div class="">
+                        <span>4.5</span>
+                        <h2 class="font-semibold">Onion 1KG</h2>
+                        <p>$39.00</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
 
 </body>
 
