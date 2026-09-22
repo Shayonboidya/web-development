@@ -1,15 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card</title>
+    <!-- TailWind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <div class="w-64 h-64 bg-amber-400 rounded-2xl p-2 my-8 mx-10 border-2">
 
+<body>
+    <h2 class="font-sans text-base border-2 p-2 rounded-2xl m-4">
+        hello TailWind
+    </h2>
+    <div class="w-40 h-40 bg-amber-400 rounded-2xl p-2 my-8 mx-10 border-2">
+        <h2 class="text-red-500">hello</h2>
 
     </div>
 </body>
+<br><br>
+
+ <!-- Product Card -->
+  <div class="w-80 bg-white rounded-2xl shadow-lg overflow-hidden">
+
+    <!-- Product Image -->
+    <img
+      src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+      alt="Smart Watch"
+      class="w-full h-56 object-cover"
+    >
+
+    <!-- Product Information -->
+    <div class="p-5">
+
+      <!-- Category -->
+      <p class="text-sm text-gray-500 mb-1">
+        Electronics
+      </p>
+
+      <!-- Product Name -->
+      <h2 class="text-2xl font-bold text-gray-800">
+        Smart Watch
+      </h2>
+
+      <!-- Description -->
+      <p class="text-gray-600 text-sm mt-2">
+        Modern smartwatch with fitness tracking and
+        heart-rate monitoring.
+      </p>
+
+      <!-- Rating -->
+      <div class="flex items-center gap-1 mt-3">
+        <span class="text-yellow-400">★★★★★</span>
+        <span class="text-sm text-gray-500">(4.8)</span>
+      </div>
+
+      <!-- Price + Button -->
+      <div class="flex items-center justify-between mt-5">
+
+        <div>
+          <p class="text-2xl font-bold text-gray-900">
+            $49.99
+          </p>
+          <p class="text-sm text-gray-400 line-through">
+            $69.99
+          </p>
+        </div>
+
+        <button
+          class="bg-blue-600 text-white px-4 py-2 rounded-lg
+                 hover:bg-blue-700 transition duration-200">
+          Add to Cart
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+
 </html>
