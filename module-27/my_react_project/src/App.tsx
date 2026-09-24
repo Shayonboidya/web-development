@@ -2,8 +2,8 @@ import './App.css'
 // import Todo from './Todo'
 // import Button  from './Button'
 // import Task from './Task'
-import Book from './Book';
-import Users from './Users';
+// import Book from './Book';
+import Card from './Card'
 
 
 function App() {
@@ -12,8 +12,7 @@ function App() {
         <>
             <h1>Hello Shayon</h1>
             
-
-            <Users></Users>
+            <Card></Card>
 
 
 
