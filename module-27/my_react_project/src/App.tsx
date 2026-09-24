@@ -3,17 +3,19 @@ import './App.css'
 // import Button  from './Button'
 // import Task from './Task'
 // import Book from './Book';
-import Card from './Card'
+// import Card from './Card'
+import Sports from './Sports'
 
 
 function App() {
     // const books = ["physics", "chemistry", "math","boilogy","english","bangla"];
     return (
-        <>
+        <div>
             <h1>Hello Shayon</h1>
             
-            <Card></Card>
+            {/* <Card></Card> */}
 
+            <Sports></Sports>
 
 
 
@@ -43,7 +45,7 @@ function App() {
 
 
 
-        </>
+        </div>
     )
 }
 
