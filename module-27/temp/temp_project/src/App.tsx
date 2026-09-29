@@ -1,7 +1,16 @@
-import AddToCard from "./addToCard"
-import Batter from "./Batter"
-import Run from "./Run"
+// import AddToCard from "./addToCard"
+// import Batter from "./Batter"
+// import Run from "./Run"
+import { Suspense } from "react"
+import Users from "./Users";
+
 // import { ProfileCard } from "./ProfileCard"
+
+const userDataPromices = async () =>{
+    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const data = await res.json();
+    return data;
+}
 
 
 function App() {
@@ -16,10 +25,15 @@ function App() {
     // }
     return (
         <>
-        <AddToCard></AddToCard>
+            <Suspense fallback={<p>loading...</p>}>
+                <Users userDataPromices={userDataPromices()}></Users>
+            </Suspense>
+
+        
+            {/* <AddToCard></AddToCard>
 
         <Batter></Batter>
-        <Run></Run>
+        <Run></Run> */}
 
             {/* <ProfileCard></ProfileCard>
             <button onClick={handleClick}>Click me</button>

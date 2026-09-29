@@ -6,7 +6,7 @@ export default function Run(){
         setRun(run + 6);
     }
     const BuyNow = () => {
-        
+        alert("Bye any product");
     }
     return (
 
