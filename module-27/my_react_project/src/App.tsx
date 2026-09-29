@@ -1,21 +1,35 @@
+import { Suspense } from 'react';
 import './App.css'
+import Batter from './Batter'
+import Users from './users';
 // import Todo from './Todo'
 // import Button  from './Button'
 // import Task from './Task'
 // import Book from './Book';
 // import Card from './Card'
-import Sports from './Sports'
-
+// import Sports from './Sports'
+const userDataPromises = async () => {
+    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const data = await res.json();
+    return data;
+}
 
 function App() {
     // const books = ["physics", "chemistry", "math","boilogy","english","bangla"];
     return (
         <div>
             <h1>Hello Shayon</h1>
-            
+
             {/* <Card></Card> */}
 
-            <Sports></Sports>
+            {/* <Sports></Sports> */}
+
+            <Batter></Batter>
+            <Suspense fallback={<p> loading...</p>}>
+                <Users userDataPromises={userDataPromises()}></Users>
+
+
+            </Suspense>
 
 
 
