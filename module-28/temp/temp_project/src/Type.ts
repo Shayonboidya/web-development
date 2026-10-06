@@ -25,3 +25,10 @@ export interface UserCardType{
     name : string;
     email?:string;
 }
+
+export interface CommentsUserType{
+    postId?:number;
+    name :string;
+    email?:string;
+    body?:string;
+}

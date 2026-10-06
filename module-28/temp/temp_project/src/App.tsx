@@ -6,6 +6,8 @@ import { Suspense } from "react";
 
 import Users from "./Users";
 import PostUser from "./PostUser";
+import CommentsUser from "./CommentsUser";
+import Todos from "./Todos";
 // import Student from "./Student";
 
 // import { ProfileCard } from "./ProfileCard"
@@ -24,6 +26,12 @@ const postDataPromise = async () =>{
 }
 
 
+const commentUserDataPromise = async () =>{
+    const res = await fetch("https://jsonplaceholder.typicode.com/comments");
+    const data = await res.json();
+    return data
+}
+
 function App() {
     // function handleClick() {
     //     alert("Hello world");
@@ -36,6 +44,10 @@ function App() {
     // }
     return (
         <>
+            <Suspense fallback={<p>loading todos..</p>}>
+                <Todos></Todos>
+            </Suspense>
+            
             <Suspense fallback={<p>loading.....</p>}>
                 <Users userDataPromics={userDataPromics()}></Users>
             </Suspense>
@@ -44,6 +56,9 @@ function App() {
                 <PostUser postDataPromise = {postDataPromise()}></PostUser>
             </Suspense>
             
+            <Suspense fallback={<p> Loadding comment user....</p>}>
+                <CommentsUser commentUserDataPromise = {(commentUserDataPromise())}></CommentsUser>
+            </Suspense>
 
 {/* 
             <Student name="Shayon" department="CSE" university="PSTU"></Student>

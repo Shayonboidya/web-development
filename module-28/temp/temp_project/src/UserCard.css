@@ -17,3 +17,12 @@
     color: rgb(98, 94, 94);
 
 }
+
+.commentUser{
+    background-color: #00ffff25;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rosybrown;
+    border-radius: 20px;
+    color: rgb(187, 49, 208);
+}
