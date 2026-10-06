@@ -1,0 +1,19 @@
+.user{
+    border: 2px solid purple;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 4px;
+}
+
+.postCard{
+    border: 3px solid red;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    
+}
+.postCard h2{
+    color: rgb(98, 94, 94);
+
+}
