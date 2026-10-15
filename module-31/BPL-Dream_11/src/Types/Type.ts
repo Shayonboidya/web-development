@@ -1,8 +1,8 @@
 export interface Iplayer {
-    PlayerName: string,
-    PlayerImg: string,
-    Origin: string,
-    PlayerType: string,
+    playerName: string,
+    playerImg: string,
+    origin: string,
+    playerType: string,
     bolwingStyle: string,
-    PlayerPrice: number;
+    playerPrice: number;
 }

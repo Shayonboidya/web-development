@@ -2,404 +2,404 @@
 {
   "players": [
     {
-      "PlayerName": "Shakib Al Hasan",
-      "PlayerImg": "/images/shakib-al-hasan.jpg",
-      "Origin": "Bangladesh",
-      "PlayerType": "All-Rounder",
+      "playerName": "Shakib Al Hasan",
+      "playerImg": "/images/shakib-al-hasan.jpg",
+      "origin": "Bangladesh",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm orthodox",
-      "PlayerPrice": 1500000
+      "playerPrice": 1500000
     },
     {
-      "PlayerName": "Tamim Iqbal",
-      "PlayerImg": "/images/tamim-iqbal.jpg",
-      "Origin": "Bangladesh",
-      "PlayerType": "Batsman",
+      "playerName": "Tamim Iqbal",
+      "playerImg": "/images/tamim-iqbal.jpg",
+      "origin": "Bangladesh",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 1200000
+      "playerPrice": 1200000
     },
     {
-      "PlayerName": "Mushfiqur Rahim",
-      "PlayerImg": "/images/mushfiqur-rahim.jpg",
-      "Origin": "Bangladesh",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "Mushfiqur Rahim",
+      "playerImg": "/images/mushfiqur-rahim.jpg",
+      "origin": "Bangladesh",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "",
-      "PlayerPrice": 1100000
+      "playerPrice": 1100000
     },
     {
-      "PlayerName": "Mahmudullah",
-      "PlayerImg": "/images/mahmudullah.jpg",
-      "Origin": "Bangladesh",
-      "PlayerType": "All-Rounder",
+      "playerName": "Mahmudullah",
+      "playerImg": "/images/mahmudullah.jpg",
+      "origin": "Bangladesh",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 1000000
+      "playerPrice": 1000000
     },
     {
-      "PlayerName": "Mustafizur Rahman",
-      "PlayerImg": "/images/mustafizur-rahman.jpg",
-      "Origin": "Bangladesh",
+      "playerName": "Mustafizur Rahman",
+      "playerImg": "/images/mustafizur-rahman.jpg",
+      "origin": "Bangladesh",
       "PlayerType": "Bowler",
       "bolwingStyle": "Left-arm fast-medium",
-      "PlayerPrice": 1300000
+      "playerPrice": 1300000
     },
     {
-      "PlayerName": "Virat Kohli",
-      "PlayerImg": "/images/virat-kohli.jpg",
-      "Origin": "India",
-      "PlayerType": "Batsman",
+      "playerName": "Virat Kohli",
+      "playerImg": "/images/virat-kohli.jpg",
+      "origin": "India",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm medium",
-      "PlayerPrice": 2500000
+      "playerPrice": 2500000
     },
     {
-      "PlayerName": "Rohit Sharma",
-      "PlayerImg": "/images/rohit-sharma.jpg",
-      "Origin": "India",
-      "PlayerType": "Batsman",
+      "playerName": "Rohit Sharma",
+      "playerImg": "/images/rohit-sharma.jpg",
+      "origin": "India",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 2300000
+      "playerPrice": 2300000
     },
     {
-      "PlayerName": "Jasprit Bumrah",
-      "PlayerImg": "/images/jasprit-bumrah.jpg",
-      "Origin": "India",
-      "PlayerType": "Bowler",
+      "playerName": "Jasprit Bumrah",
+      "playerImg": "/images/jasprit-bumrah.jpg",
+      "origin": "India",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "PlayerPrice": 2400000
+      "playerPrice": 2400000
     },
     {
-      "PlayerName": "Hardik Pandya",
-      "PlayerImg": "/images/hardik-pandya.jpg",
-      "Origin": "India",
-      "PlayerType": "All-Rounder",
+      "playerName": "Hardik Pandya",
+      "playerImg": "/images/hardik-pandya.jpg",
+      "origin": "India",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
-      "PlayerPrice": 2100000
+      "playerPrice": 2100000
     },
     {
-      "PlayerName": "Ravindra Jadeja",
-      "PlayerImg": "/images/ravindra-jadeja.jpg",
-      "Origin": "India",
-      "PlayerType": "All-Rounder",
+      "playerName": "Ravindra Jadeja",
+      "playerImg": "/images/ravindra-jadeja.jpg",
+      "origin": "India",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm orthodox",
-      "PlayerPrice": 2000000
+      "playerPrice": 2000000
     },
     {
-      "PlayerName": "MS Dhoni",
-      "PlayerImg": "/images/ms-dhoni.jpg",
-      "Origin": "India",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "MS Dhoni",
+      "playerImg": "/images/ms-dhoni.jpg",
+      "origin": "India",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "PlayerPrice": 2200000
+      "playerPrice": 2200000
     },
     {
-      "PlayerName": "KL Rahul",
-      "PlayerImg": "/images/kl-rahul.jpg",
-      "Origin": "India",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "KL Rahul",
+      "playerImg": "/images/kl-rahul.jpg",
+      "origin": "India",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "PlayerPrice": 1700000
+      "playerPrice": 1700000
     },
     {
-      "PlayerName": "Babar Azam",
-      "PlayerImg": "/images/babar-azam.jpg",
-      "Origin": "Pakistan",
-      "PlayerType": "Batsman",
+      "playerName": "Babar Azam",
+      "playerImg": "/images/babar-azam.jpg",
+      "origin": "Pakistan",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 2200000
+      "playerPrice": 2200000
     },
     {
-      "PlayerName": "Shaheen Shah Afridi",
-      "PlayerImg": "/images/shaheen-afridi.jpg",
-      "Origin": "Pakistan",
-      "PlayerType": "Bowler",
+      "playerName": "Shaheen Shah Afridi",
+      "playerImg": "/images/shaheen-afridi.jpg",
+      "origin": "Pakistan",
+      "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast",
-      "PlayerPrice": 2000000
+      "playerPrice": 2000000
     },
     {
-      "PlayerName": "Mohammad Rizwan",
-      "PlayerImg": "/images/mohammad-rizwan.jpg",
-      "Origin": "Pakistan",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "Mohammad Rizwan",
+      "playerImg": "/images/mohammad-rizwan.jpg",
+      "origin": "Pakistan",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "",
-      "PlayerPrice": 1900000
+      "playerPrice": 1900000
     },
     {
-      "PlayerName": "Shahid Afridi",
-      "PlayerImg": "/images/shahid-afridi.jpg",
-      "Origin": "Pakistan",
-      "PlayerType": "All-Rounder",
+      "playerName": "Shahid Afridi",
+      "playerImg": "/images/shahid-afridi.jpg",
+      "origin": "Pakistan",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm leg-break",
-      "PlayerPrice": 1400000
+      "playerPrice": 1400000
     },
     {
-      "PlayerName": "Kane Williamson",
-      "PlayerImg": "/images/kane-williamson.jpg",
-      "Origin": "New Zealand",
-      "PlayerType": "Batsman",
+      "playerName": "Kane Williamson",
+      "playerImg": "/images/kane-williamson.jpg",
+      "origin": "New Zealand",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 2000000
+      "playerPrice": 2000000
     },
     {
-      "PlayerName": "Trent Boult",
-      "PlayerImg": "/images/trent-boult.jpg",
-      "Origin": "New Zealand",
-      "PlayerType": "Bowler",
+      "playerName": "Trent Boult",
+      "playerImg": "/images/trent-boult.jpg",
+      "origin": "New Zealand",
+      "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast-medium",
-      "PlayerPrice": 1800000
+      "playerPrice": 1800000
     },
     {
-      "PlayerName": "Mitchell Santner",
-      "PlayerImg": "/images/mitchell-santner.jpg",
-      "Origin": "New Zealand",
-      "PlayerType": "All-Rounder",
+      "playerName": "Mitchell Santner",
+      "playerImg": "/images/mitchell-santner.jpg",
+      "origin": "New Zealand",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
-      "PlayerPrice": 1400000
+      "playerPrice": 1400000
     },
     {
-      "PlayerName": "Brendon McCullum",
-      "PlayerImg": "/images/brendon-mccullum.jpg",
-      "Origin": "New Zealand",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "Brendon McCullum",
+      "playerImg": "/images/brendon-mccullum.jpg",
+      "origin": "New Zealand",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "PlayerPrice": 1300000
+      "playerPrice": 1300000
     },
     {
-      "PlayerName": "Steve Smith",
-      "PlayerImg": "/images/steve-smith.jpg",
-      "Origin": "Australia",
-      "PlayerType": "Batsman",
+      "playerName": "Steve Smith",
+      "playerImg": "/images/steve-smith.jpg",
+      "origin": "Australia",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
-      "PlayerPrice": 2200000
+      "playerPrice": 2200000
     },
     {
-      "PlayerName": "David Warner",
-      "PlayerImg": "/images/david-warner.jpg",
-      "Origin": "Australia",
-      "PlayerType": "Batsman",
+      "playerName": "David Warner",
+      "playerImg": "/images/david-warner.jpg",
+      "origin": "Australia",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
-      "PlayerPrice": 2000000
+      "playerPrice": 2000000
     },
     {
-      "PlayerName": "Pat Cummins",
-      "PlayerImg": "/images/pat-cummins.jpg",
-      "Origin": "Australia",
-      "PlayerType": "Bowler",
+      "playerName": "Pat Cummins",
+      "playerImg": "/images/pat-cummins.jpg",
+      "origin": "Australia",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "PlayerPrice": 2300000
+      "playerPrice": 2300000
     },
     {
-      "PlayerName": "Mitchell Starc",
-      "PlayerImg": "/images/mitchell-starc.jpg",
-      "Origin": "Australia",
-      "PlayerType": "Bowler",
+      "playerName": "Mitchell Starc",
+      "playerImg": "/images/mitchell-starc.jpg",
+      "origin": "Australia",
+      "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast",
-      "PlayerPrice": 2200000
+      "playerPrice": 2200000
     },
     {
-      "PlayerName": "Glenn Maxwell",
-      "PlayerImg": "/images/glenn-maxwell.jpg",
-      "Origin": "Australia",
-      "PlayerType": "All-Rounder",
+      "playerName": "Glenn Maxwell",
+      "playerImg": "/images/glenn-maxwell.jpg",
+      "origin": "Australia",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 2100000
+      "playerPrice": 2100000
     },
     {
-      "PlayerName": "Adam Gilchrist",
-      "PlayerImg": "/images/adam-gilchrist.jpg",
-      "Origin": "Australia",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "Adam Gilchrist",
+      "playerImg": "/images/adam-gilchrist.jpg",
+      "origin": "Australia",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 1800000
+      "playerPrice": 1800000
     },
     {
-      "PlayerName": "Joe Root",
-      "PlayerImg": "/images/joe-root.jpg",
-      "Origin": "England",
-      "PlayerType": "Batsman",
+      "playerName": "Joe Root",
+      "playerImg": "/images/joe-root.jpg",
+      "origin": "England",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 2100000
+      "playerPrice": 2100000
     },
     {
-      "PlayerName": "Ben Stokes",
-      "PlayerImg": "/images/ben-stokes.jpg",
-      "Origin": "England",
-      "PlayerType": "All-Rounder",
+      "playerName": "Ben Stokes",
+      "playerImg": "/images/ben-stokes.jpg",
+      "origin": "England",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm fast-medium",
-      "PlayerPrice": 2300000
+      "playerPrice": 2300000
     },
     {
-      "PlayerName": "Jos Buttler",
-      "PlayerImg": "/images/jos-buttler.jpg",
-      "Origin": "England",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "Jos Buttler",
+      "playerImg": "/images/jos-buttler.jpg",
+      "origin": "England",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "PlayerPrice": 2000000
+      "playerPrice": 2000000
     },
     {
-      "PlayerName": "James Anderson",
-      "PlayerImg": "/images/james-anderson.jpg",
-      "Origin": "England",
-      "PlayerType": "Bowler",
+      "playerName": "James Anderson",
+      "playerImg": "/images/james-anderson.jpg",
+      "origin": "England",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast-medium",
-      "PlayerPrice": 1500000
+      "playerPrice": 1500000
     },
     {
-      "PlayerName": "Jofra Archer",
-      "PlayerImg": "/images/jofra-archer.jpg",
-      "Origin": "England",
-      "PlayerType": "Bowler",
+      "playerName": "Jofra Archer",
+      "playerImg": "/images/jofra-archer.jpg",
+      "origin": "England",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "PlayerPrice": 1800000
+      "playerPrice": 1800000
     },
     {
-      "PlayerName": "Kumar Sangakkara",
-      "PlayerImg": "/images/kumar-sangakkara.jpg",
-      "Origin": "Sri Lanka",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "Kumar Sangakkara",
+      "playerImg": "/images/kumar-sangakkara.jpg",
+      "origin": "Sri Lanka",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Left-arm orthodox",
-      "PlayerPrice": 1900000
+      "playerPrice": 1900000
     },
     {
-      "PlayerName": "Lasith Malinga",
-      "PlayerImg": "/images/lasith-malinga.jpg",
-      "Origin": "Sri Lanka",
-      "PlayerType": "Bowler",
+      "playerName": "Lasith Malinga",
+      "playerImg": "/images/lasith-malinga.jpg",
+      "origin": "Sri Lanka",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "PlayerPrice": 1700000
+      "playerPrice": 1700000
     },
     {
-      "PlayerName": "Angelo Mathews",
-      "PlayerImg": "/images/angelo-mathews.jpg",
-      "Origin": "Sri Lanka",
-      "PlayerType": "All-Rounder",
+      "playerName": "Angelo Mathews",
+      "playerImg": "/images/angelo-mathews.jpg",
+      "origin": "Sri Lanka",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
-      "PlayerPrice": 1500000
+      "playerPrice": 1500000
     },
     {
-      "PlayerName": "Sanath Jayasuriya",
-      "PlayerImg": "/images/sanath-jayasuriya.jpg",
-      "Origin": "Sri Lanka",
-      "PlayerType": "All-Rounder",
+      "playerName": "Sanath Jayasuriya",
+      "playerImg": "/images/sanath-jayasuriya.jpg",
+      "origin": "Sri Lanka",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
-      "PlayerPrice": 1600000
+      "playerPrice": 1600000
     },
     {
-      "PlayerName": "Chris Gayle",
-      "PlayerImg": "/images/chris-gayle.jpg",
-      "Origin": "West Indies",
-      "PlayerType": "All-Rounder",
+      "playerName": "Chris Gayle",
+      "playerImg": "/images/chris-gayle.jpg",
+      "origin": "West Indies",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 2000000
+      "playerPrice": 2000000
     },
     {
-      "PlayerName": "Brian Lara",
-      "PlayerImg": "/images/brian-lara.jpg",
-      "Origin": "West Indies",
-      "PlayerType": "Batsman",
+      "playerName": "Brian Lara",
+      "playerImg": "/images/brian-lara.jpg",
+      "origin": "West Indies",
+      "playerType": "Batsman",
       "bolwingStyle": "Left-arm medium",
-      "PlayerPrice": 1900000
+      "playerPrice": 1900000
     },
     {
-      "PlayerName": "Andre Russell",
-      "PlayerImg": "/images/andre-russell.jpg",
-      "Origin": "West Indies",
-      "PlayerType": "All-Rounder",
+      "playerName": "Andre Russell",
+      "playerImg": "/images/andre-russell.jpg",
+      "origin": "West Indies",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast",
-      "PlayerPrice": 2200000
+      "playerPrice": 2200000
     },
     {
-      "PlayerName": "Jason Holder",
-      "PlayerImg": "/images/jason-holder.jpg",
-      "Origin": "West Indies",
-      "PlayerType": "All-Rounder",
+      "playerName": "Jason Holder",
+      "playerImg": "/images/jason-holder.jpg",
+      "origin": "West Indies",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
-      "PlayerPrice": 1600000
+      "playerPrice": 1600000
     },
     {
-      "PlayerName": "Sunil Narine",
-      "PlayerImg": "/images/sunil-narine.jpg",
-      "Origin": "West Indies",
-      "PlayerType": "Bowler",
+      "playerName": "Sunil Narine",
+      "playerImg": "/images/sunil-narine.jpg",
+      "origin": "West Indies",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 1800000
+      "playerPrice": 1800000
     },
     {
-      "PlayerName": "AB de Villiers",
-      "PlayerImg": "/images/ab-de-villiers.jpg",
-      "Origin": "South Africa",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "AB de Villiers",
+      "playerImg": "/images/ab-de-villiers.jpg",
+      "origin": "South Africa",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "PlayerPrice": 2300000
+      "playerPrice": 2300000
     },
     {
-      "PlayerName": "Quinton de Kock",
-      "PlayerImg": "/images/quinton-de-kock.jpg",
-      "Origin": "South Africa",
-      "PlayerType": "Wicketkeeper-Batsman",
+      "playerName": "Quinton de Kock",
+      "playerImg": "/images/quinton-de-kock.jpg",
+      "origin": "South Africa",
+      "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Slow left-arm orthodox",
-      "PlayerPrice": 1800000
+      "playerPrice": 1800000
     },
     {
-      "PlayerName": "Kagiso Rabada",
-      "PlayerImg": "/images/kagiso-rabada.jpg",
-      "Origin": "South Africa",
-      "PlayerType": "Bowler",
+      "playerName": "Kagiso Rabada",
+      "playerImg": "/images/kagiso-rabada.jpg",
+      "origin": "South Africa",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "PlayerPrice": 2000000
+      "playerPrice": 2000000
     },
     {
-      "PlayerName": "Dale Steyn",
-      "PlayerImg": "/images/dale-steyn.jpg",
-      "Origin": "South Africa",
-      "PlayerType": "Bowler",
+      "playerName": "Dale Steyn",
+      "playerImg": "/images/dale-steyn.jpg",
+      "origin": "South Africa",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "PlayerPrice": 1800000
+      "playerPrice": 1800000
     },
     {
-      "PlayerName": "Faf du Plessis",
-      "PlayerImg": "/images/faf-du-plessis.jpg",
-      "Origin": "South Africa",
-      "PlayerType": "Batsman",
+      "playerName": "Faf du Plessis",
+      "playerImg": "/images/faf-du-plessis.jpg",
+      "origin": "South Africa",
+      "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
-      "PlayerPrice": 1700000
+      "playerPrice": 1700000
     },
     {
-      "PlayerName": "Rashid Khan",
-      "PlayerImg": "/images/rashid-khan.jpg",
-      "Origin": "Afghanistan",
-      "PlayerType": "Bowler",
+      "playerName": "Rashid Khan",
+      "playerImg": "/images/rashid-khan.jpg",
+      "origin": "Afghanistan",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm leg-break",
-      "PlayerPrice": 2200000
+      "playerPrice": 2200000
     },
     {
-      "PlayerName": "Mohammad Nabi",
-      "PlayerImg": "/images/mohammad-nabi.jpg",
-      "Origin": "Afghanistan",
-      "PlayerType": "All-Rounder",
+      "playerName": "Mohammad Nabi",
+      "playerImg": "/images/mohammad-nabi.jpg",
+      "origin": "Afghanistan",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 1500000
+      "playerPrice": 1500000
     },
     {
-      "PlayerName": "Mujeeb Ur Rahman",
-      "PlayerImg": "/images/mujeeb-ur-rahman.jpg",
-      "Origin": "Afghanistan",
-      "PlayerType": "Bowler",
+      "playerName": "Mujeeb Ur Rahman",
+      "playerImg": "/images/mujeeb-ur-rahman.jpg",
+      "origin": "Afghanistan",
+      "playerType": "Bowler",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 1400000
+      "playerPrice": 1400000
     },
     {
-      "PlayerName": "Shoaib Malik",
-      "PlayerImg": "/images/shoaib-malik.jpg",
-      "Origin": "Pakistan",
-      "PlayerType": "All-Rounder",
+      "playerName": "Shoaib Malik",
+      "playerImg": "/images/shoaib-malik.jpg",
+      "origin": "Pakistan",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "PlayerPrice": 1300000
+      "playerPrice": 1300000
     },
     {
-      "PlayerName": "Yuvraj Singh",
-      "PlayerImg": "/images/yuvraj-singh.jpg",
-      "Origin": "India",
-      "PlayerType": "All-Rounder",
+      "playerName": "Yuvraj Singh",
+      "playerImg": "/images/yuvraj-singh.jpg",
+      "origin": "India",
+      "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
-      "PlayerPrice": 1800000
+      "playerPrice": 1800000
     }
   ]
 }
