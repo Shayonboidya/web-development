@@ -5,6 +5,7 @@ export interface Iplayer {
     playerType: string,
     bolwingStyle: string,
     playerPrice: number;
+    rating: number;
 }
 export interface playerType {
     playesPromice: Promise<Iplayer[]>
