@@ -1,9 +1,8 @@
-
 {
   "players": [
     {
       "playerName": "Shakib Al Hasan",
-      "playerImg": "/images/shakib-al-hasan.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Shakib+Al+Hasan+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Bangladesh",
       "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm orthodox",
@@ -11,7 +10,7 @@
     },
     {
       "playerName": "Tamim Iqbal",
-      "playerImg": "/images/tamim-iqbal.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Tamim+Iqbal+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Bangladesh",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
@@ -19,7 +18,7 @@
     },
     {
       "playerName": "Mushfiqur Rahim",
-      "playerImg": "/images/mushfiqur-rahim.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mushfiqur+Rahim+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Bangladesh",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "",
@@ -27,7 +26,7 @@
     },
     {
       "playerName": "Mahmudullah",
-      "playerImg": "/images/mahmudullah.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mahmudullah+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Bangladesh",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
@@ -35,15 +34,15 @@
     },
     {
       "playerName": "Mustafizur Rahman",
-      "playerImg": "/images/mustafizur-rahman.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mustafizur+Rahman+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Bangladesh",
-      "PlayerType": "Bowler",
       "bolwingStyle": "Left-arm fast-medium",
-      "playerPrice": 1300000
+      "playerPrice": 1300000,
+      "playerType": "Bowler"
     },
     {
       "playerName": "Virat Kohli",
-      "playerImg": "/images/virat-kohli.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Virat+Kohli+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm medium",
@@ -51,7 +50,7 @@
     },
     {
       "playerName": "Rohit Sharma",
-      "playerImg": "/images/rohit-sharma.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Rohit+Sharma+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
@@ -59,7 +58,7 @@
     },
     {
       "playerName": "Jasprit Bumrah",
-      "playerImg": "/images/jasprit-bumrah.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Jasprit+Bumrah+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
@@ -67,7 +66,7 @@
     },
     {
       "playerName": "Hardik Pandya",
-      "playerImg": "/images/hardik-pandya.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Hardik+Pandya+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
@@ -75,7 +74,7 @@
     },
     {
       "playerName": "Ravindra Jadeja",
-      "playerImg": "/images/ravindra-jadeja.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Ravindra+Jadeja+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm orthodox",
@@ -83,7 +82,7 @@
     },
     {
       "playerName": "MS Dhoni",
-      "playerImg": "/images/ms-dhoni.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=MS+Dhoni+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
@@ -91,7 +90,7 @@
     },
     {
       "playerName": "KL Rahul",
-      "playerImg": "/images/kl-rahul.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=KL+Rahul+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
@@ -99,7 +98,7 @@
     },
     {
       "playerName": "Babar Azam",
-      "playerImg": "/images/babar-azam.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Babar+Azam+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Pakistan",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
@@ -107,7 +106,7 @@
     },
     {
       "playerName": "Shaheen Shah Afridi",
-      "playerImg": "/images/shaheen-afridi.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Shaheen+Shah+Afridi+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Pakistan",
       "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast",
@@ -115,7 +114,7 @@
     },
     {
       "playerName": "Mohammad Rizwan",
-      "playerImg": "/images/mohammad-rizwan.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mohammad+Rizwan+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Pakistan",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "",
@@ -123,7 +122,7 @@
     },
     {
       "playerName": "Shahid Afridi",
-      "playerImg": "/images/shahid-afridi.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Shahid+Afridi+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Pakistan",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm leg-break",
@@ -131,7 +130,7 @@
     },
     {
       "playerName": "Kane Williamson",
-      "playerImg": "/images/kane-williamson.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Kane+Williamson+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "New Zealand",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
@@ -139,7 +138,7 @@
     },
     {
       "playerName": "Trent Boult",
-      "playerImg": "/images/trent-boult.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Trent+Boult+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "New Zealand",
       "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast-medium",
@@ -147,7 +146,7 @@
     },
     {
       "playerName": "Mitchell Santner",
-      "playerImg": "/images/mitchell-santner.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mitchell+Santner+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "New Zealand",
       "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
@@ -155,7 +154,7 @@
     },
     {
       "playerName": "Brendon McCullum",
-      "playerImg": "/images/brendon-mccullum.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Brendon+McCullum+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "New Zealand",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
@@ -163,7 +162,7 @@
     },
     {
       "playerName": "Steve Smith",
-      "playerImg": "/images/steve-smith.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Steve+Smith+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Australia",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
@@ -171,7 +170,7 @@
     },
     {
       "playerName": "David Warner",
-      "playerImg": "/images/david-warner.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=David+Warner+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Australia",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
@@ -179,7 +178,7 @@
     },
     {
       "playerName": "Pat Cummins",
-      "playerImg": "/images/pat-cummins.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Pat+Cummins+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Australia",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
@@ -187,7 +186,7 @@
     },
     {
       "playerName": "Mitchell Starc",
-      "playerImg": "/images/mitchell-starc.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mitchell+Starc+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Australia",
       "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast",
@@ -195,7 +194,7 @@
     },
     {
       "playerName": "Glenn Maxwell",
-      "playerImg": "/images/glenn-maxwell.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Glenn+Maxwell+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Australia",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
@@ -203,7 +202,7 @@
     },
     {
       "playerName": "Adam Gilchrist",
-      "playerImg": "/images/adam-gilchrist.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Adam+Gilchrist+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Australia",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm off-break",
@@ -211,7 +210,7 @@
     },
     {
       "playerName": "Joe Root",
-      "playerImg": "/images/joe-root.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Joe+Root+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "England",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
@@ -219,7 +218,7 @@
     },
     {
       "playerName": "Ben Stokes",
-      "playerImg": "/images/ben-stokes.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Ben+Stokes+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "England",
       "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm fast-medium",
@@ -227,7 +226,7 @@
     },
     {
       "playerName": "Jos Buttler",
-      "playerImg": "/images/jos-buttler.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Jos+Buttler+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "England",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
@@ -235,7 +234,7 @@
     },
     {
       "playerName": "James Anderson",
-      "playerImg": "/images/james-anderson.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=James+Anderson+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "England",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast-medium",
@@ -243,7 +242,7 @@
     },
     {
       "playerName": "Jofra Archer",
-      "playerImg": "/images/jofra-archer.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Jofra+Archer+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "England",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
@@ -251,7 +250,7 @@
     },
     {
       "playerName": "Kumar Sangakkara",
-      "playerImg": "/images/kumar-sangakkara.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Kumar+Sangakkara+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Sri Lanka",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Left-arm orthodox",
@@ -259,7 +258,7 @@
     },
     {
       "playerName": "Lasith Malinga",
-      "playerImg": "/images/lasith-malinga.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Lasith+Malinga+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Sri Lanka",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
@@ -267,7 +266,7 @@
     },
     {
       "playerName": "Angelo Mathews",
-      "playerImg": "/images/angelo-mathews.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Angelo+Mathews+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Sri Lanka",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
@@ -275,7 +274,7 @@
     },
     {
       "playerName": "Sanath Jayasuriya",
-      "playerImg": "/images/sanath-jayasuriya.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Sanath+Jayasuriya+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Sri Lanka",
       "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
@@ -283,7 +282,7 @@
     },
     {
       "playerName": "Chris Gayle",
-      "playerImg": "/images/chris-gayle.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Chris+Gayle+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "West Indies",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
@@ -291,7 +290,7 @@
     },
     {
       "playerName": "Brian Lara",
-      "playerImg": "/images/brian-lara.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Brian+Lara+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "West Indies",
       "playerType": "Batsman",
       "bolwingStyle": "Left-arm medium",
@@ -299,7 +298,7 @@
     },
     {
       "playerName": "Andre Russell",
-      "playerImg": "/images/andre-russell.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Andre+Russell+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "West Indies",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast",
@@ -307,7 +306,7 @@
     },
     {
       "playerName": "Jason Holder",
-      "playerImg": "/images/jason-holder.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Jason+Holder+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "West Indies",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
@@ -315,7 +314,7 @@
     },
     {
       "playerName": "Sunil Narine",
-      "playerImg": "/images/sunil-narine.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Sunil+Narine+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "West Indies",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm off-break",
@@ -323,7 +322,7 @@
     },
     {
       "playerName": "AB de Villiers",
-      "playerImg": "/images/ab-de-villiers.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=AB+de+Villiers+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "South Africa",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
@@ -331,7 +330,7 @@
     },
     {
       "playerName": "Quinton de Kock",
-      "playerImg": "/images/quinton-de-kock.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Quinton+de+Kock+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "South Africa",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Slow left-arm orthodox",
@@ -339,7 +338,7 @@
     },
     {
       "playerName": "Kagiso Rabada",
-      "playerImg": "/images/kagiso-rabada.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Kagiso+Rabada+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "South Africa",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
@@ -347,7 +346,7 @@
     },
     {
       "playerName": "Dale Steyn",
-      "playerImg": "/images/dale-steyn.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Dale+Steyn+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "South Africa",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
@@ -355,7 +354,7 @@
     },
     {
       "playerName": "Faf du Plessis",
-      "playerImg": "/images/faf-du-plessis.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Faf+du+Plessis+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "South Africa",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
@@ -363,7 +362,7 @@
     },
     {
       "playerName": "Rashid Khan",
-      "playerImg": "/images/rashid-khan.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Rashid+Khan+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Afghanistan",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm leg-break",
@@ -371,7 +370,7 @@
     },
     {
       "playerName": "Mohammad Nabi",
-      "playerImg": "/images/mohammad-nabi.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mohammad+Nabi+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Afghanistan",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
@@ -379,7 +378,7 @@
     },
     {
       "playerName": "Mujeeb Ur Rahman",
-      "playerImg": "/images/mujeeb-ur-rahman.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Mujeeb+Ur+Rahman+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Afghanistan",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm off-break",
@@ -387,7 +386,7 @@
     },
     {
       "playerName": "Shoaib Malik",
-      "playerImg": "/images/shoaib-malik.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Shoaib+Malik+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Pakistan",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
@@ -395,7 +394,7 @@
     },
     {
       "playerName": "Yuvraj Singh",
-      "playerImg": "/images/yuvraj-singh.jpg",
+      "playerImg": "https://tse1.mm.bing.net/th?q=Yuvraj+Singh+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "India",
       "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",

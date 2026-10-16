@@ -9,7 +9,7 @@ function App() {
     const playesPromice = async (): Promise<Iplayer[]> => {
         const res = await fetch('/data.json');
         const data = await res.json();
-        return data;
+        return data.players;
     }
     return (
         <>

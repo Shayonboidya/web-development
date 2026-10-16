@@ -6,3 +6,6 @@ export interface Iplayer {
     bolwingStyle: string,
     playerPrice: number;
 }
+export interface playerType {
+    playesPromice: Promise<Iplayer[]>
+}
