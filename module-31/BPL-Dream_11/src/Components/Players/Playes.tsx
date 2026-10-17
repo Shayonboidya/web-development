@@ -1,14 +1,14 @@
 import { use, useState } from 'react';
-import { type Iplayer, type IplayerType } from '../../Types/Type';
+import { type IplayerType } from '../../Types/Type';
 import AviablePlayers from './AviablePlayers';
 import SelectedPlayers from './SelectedPlayers';
 
-const Playes = ({ playesPromice, coin, setCoin }: IplayerType) => {
+const Playes = ({ playesPromice, selectedPlayer, setSelectedPlayer, coin, setCoin }: IplayerType) => {
     const playes = use(playesPromice);
     // console.log(playes);
 
     const [buttonType, setButtonType] = useState("aviable");
-    const [selectedPlayer, setSelectedPlayer] = useState<Iplayer[]>([]);
+    // const [selectedPlayer, setSelectedPlayer] = useState<Iplayer[]>([]);
 
     const handelUpdateButton = (type: "aviable" | "selected") => {
         setButtonType(type);

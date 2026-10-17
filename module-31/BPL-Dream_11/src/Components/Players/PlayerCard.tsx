@@ -1,29 +1,51 @@
 
-import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { MdSportsCricket } from "react-icons/md";
 import { FaCheck, FaStar } from "react-icons/fa";
 import type { IplayerCardCoin } from "../../Types/Type";
 import { toast } from "react-toastify";
 
-const PlayerCard = ({ player, coin, setCoin,selectedPlayer,setSelectedPlayer }: IplayerCardCoin) => {
-    const [selected, setSelected] = useState(false);
+const PlayerCard = ({ player, coin, setCoin, selectedPlayer, setSelectedPlayer }: IplayerCardCoin) => {
+    // const [selected, setSelected] = useState(false);
+    const selected = selectedPlayer.some(
+        (p) => p.playerName === player.playerName
+    );
+
+    // const handelSelecetedPlayer = () => {
+    //     setSelected(true);
+    //     const newCoinPrice = coin - player.playerPrice;
+    //     if(newCoinPrice < 0){
+    //         toast.error("player is not allow persase")
+    //         setSelected(false);
+    //     }else{
+    //         setCoin(newCoinPrice);
+    //         toast.success(`${player.playerName} is pursasec success`)
+    //     }
+
+    //     // seleceted
+    //     setSelectedPlayer([...selectedPlayer ,player]);
+
+    // }
 
     const handelSelecetedPlayer = () => {
-        setSelected(true);
-        const newCoinPrice = coin - player.playerPrice;
-        if(newCoinPrice < 0){
-            toast.error("player is not allow persase")
-            setSelected(false);
-        }else{
-            setCoin(newCoinPrice);
-            toast.success(`${player.playerName} is pursasec success`)
+        // Prevent duplicate selection
+        if (selected) return;
+
+        // Check available coins first
+        if (coin < player.playerPrice) {
+            toast.error("Not enough coins to purchase this player!");
+            return;
         }
 
-        // seleceted
-        setSelectedPlayer([...selectedPlayer ,player]);
+        // Add player to the shared state
+        setSelectedPlayer((prev) => [...prev, player]);
 
-    }
+        // Deduct coins
+        setCoin((prev) => prev - player.playerPrice);
+
+        toast.success(`${player.playerName} selected successfully!`);
+    };
+
     return (
         <div className="group relative overflow-hidden rounded-2xl
       border border-base-300 bg-base-100 shadow-lg
