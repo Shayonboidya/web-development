@@ -30,8 +30,11 @@ export interface IplayerCardCoin {
     selectedPlayer: Iplayer[];
     setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
 }
-export interface ISelectedPlayers{
+export interface ISelectedPlayers {
     selectedPlayer: Iplayer[];
     setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
 
+}
+export interface ISelectedPlayerCard {
+    player: Iplayer;
 }

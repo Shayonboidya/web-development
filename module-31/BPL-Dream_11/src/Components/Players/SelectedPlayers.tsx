@@ -1,13 +1,16 @@
 // import React from 'react';
-import type { ISelectedPlayers } from '../../Types/Type';
+import type { Iplayer, ISelectedPlayers } from '../../Types/Type';
+import SelectedPlayerCard from './SelectedPlayerCard';
 
 const SelectedPlayers = ({ selectedPlayer }: ISelectedPlayers) => {
     return (
         <div>
             <h3>Selected players</h3>
-            {selectedPlayer.map((player, index) => (
-                <h3 key={player.playerName ?? index}>{player.playerName}</h3>
-            ))}
+            <div className='grid grid-cols-1 gap-2'>
+                {selectedPlayer.map((player: Iplayer, index: number) => (
+                    <SelectedPlayerCard player={player} key={index} ></SelectedPlayerCard>
+                ))}
+            </div>
         </div>
     );
 };

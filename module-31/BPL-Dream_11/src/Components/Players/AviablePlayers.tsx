@@ -4,7 +4,7 @@ import PlayerCard from './PlayerCard';
 
 const AviablePlayers = ({ playes, coin, setCoin, selectedPlayer, setSelectedPlayer }: IaviablePlayersCoin) => {
     return (
-        <div className='grid grid-cols-4 gap-3 m-6'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 m-6'>
             {playes.map((player: Iplayer, idx: number) => (
                 <PlayerCard
                     key={idx}
