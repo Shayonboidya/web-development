@@ -9,8 +9,29 @@ export interface Iplayer {
     playerPrice: number;
     rating: number;
 }
-export interface playerType {
+export interface IplayerType {
     playesPromice: Promise<Iplayer[]>
     coin: number;
-    setCoin:Dispatch<SetStateAction<number>>;
+    setCoin: Dispatch<SetStateAction<number>>;
+    selectedPlayer: Iplayer[];
+    setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
+}
+export interface IaviablePlayersCoin {
+    playes: Iplayer[]
+    coin: number;
+    setCoin: Dispatch<SetStateAction<number>>;
+    selectedPlayer: Iplayer[];
+    setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
+}
+export interface IplayerCardCoin {
+    player: Iplayer
+    coin: number;
+    setCoin: Dispatch<SetStateAction<number>>;
+    selectedPlayer: Iplayer[];
+    setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
+}
+export interface ISelectedPlayers{
+    selectedPlayer: Iplayer[];
+    setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
+
 }

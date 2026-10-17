@@ -1,6 +1,6 @@
 // import React from 'react';
-import { AiTwotoneDollarCircle } from 'react-icons/ai';
 import Logo from '../assets/logo.png'
+import { FaCoins } from 'react-icons/fa';
 
 const Nav = ({ coin }: { coin: number }) => {
     return (
@@ -13,7 +13,7 @@ const Nav = ({ coin }: { coin: number }) => {
                     <li>Fixture</li>
                     <li>Teams</li>
                     <li>Schedule</li>
-                    <li className='flex  gap-2 items-center border-2 px-3 py-1 font-bold bg-amber-50 rounded-2xl'>{coin} Coin <AiTwotoneDollarCircle /></li>
+                    <li className='flex  gap-2 items-center border-2 px-3 py-1 font-bold bg-amber-50 rounded-2xl'>{coin} Coin <FaCoins className="text-amber-400 text-2xl" /></li>
                 </ul>
             </div>
         </nav>

@@ -6,7 +6,7 @@
       "origin": "Bangladesh",
       "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm orthodox",
-      "playerPrice": 1500000,
+      "playerPrice": 1500,
       "rating": 4.9
     },
     {
@@ -15,7 +15,7 @@
       "origin": "Bangladesh",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 1200000,
+      "playerPrice": 1200,
       "rating": 4.7
     },
     {
@@ -24,7 +24,7 @@
       "origin": "Bangladesh",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "",
-      "playerPrice": 1100000,
+      "playerPrice": 1100,
       "rating": 4.8
     },
     {
@@ -33,7 +33,7 @@
       "origin": "Bangladesh",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 1000000,
+      "playerPrice": 1000,
       "rating": 4.6
     },
     {
@@ -41,7 +41,7 @@
       "playerImg": "https://tse1.mm.bing.net/th?q=Mustafizur+Rahman+cricket+player+official+photo&w=500&h=600&c=7&rs=1&p=0",
       "origin": "Bangladesh",
       "bolwingStyle": "Left-arm fast-medium",
-      "playerPrice": 1300000,
+      "playerPrice": 1300,
       "playerType": "Bowler",
       "rating": 4.7
     },
@@ -51,7 +51,7 @@
       "origin": "India",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm medium",
-      "playerPrice": 2500000,
+      "playerPrice": 2500,
       "rating": 5.0
     },
     {
@@ -60,7 +60,7 @@
       "origin": "India",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 2300000,
+      "playerPrice": 2300,
       "rating": 4.9
     },
     {
@@ -69,7 +69,7 @@
       "origin": "India",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "playerPrice": 2400000,
+      "playerPrice": 2400,
       "rating": 4.9
     },
     {
@@ -78,7 +78,7 @@
       "origin": "India",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
-      "playerPrice": 2100000,
+      "playerPrice": 2100,
       "rating": 4.7
     },
     {
@@ -87,7 +87,7 @@
       "origin": "India",
       "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm orthodox",
-      "playerPrice": 2000000,
+      "playerPrice": 2000,
       "rating": 4.8
     },
     {
@@ -96,7 +96,7 @@
       "origin": "India",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "playerPrice": 2200000,
+      "playerPrice": 2200,
       "rating": 4.9
     },
     {
@@ -105,7 +105,7 @@
       "origin": "India",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "playerPrice": 1700000,
+      "playerPrice": 1700,
       "rating": 4.6
     },
     {
@@ -114,7 +114,7 @@
       "origin": "Pakistan",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 2200000,
+      "playerPrice": 2200,
       "rating": 4.9
     },
     {
@@ -123,7 +123,7 @@
       "origin": "Pakistan",
       "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast",
-      "playerPrice": 2000000,
+      "playerPrice": 2000,
       "rating": 4.7
     },
     {
@@ -132,7 +132,7 @@
       "origin": "Pakistan",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "",
-      "playerPrice": 1900000,
+      "playerPrice": 1900,
       "rating": 4.8
     },
     {
@@ -141,7 +141,7 @@
       "origin": "Pakistan",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm leg-break",
-      "playerPrice": 1400000,
+      "playerPrice": 1400,
       "rating": 4.6
     },
     {
@@ -150,7 +150,7 @@
       "origin": "New Zealand",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 2000000,
+      "playerPrice": 2000,
       "rating": 4.8
     },
     {
@@ -159,7 +159,7 @@
       "origin": "New Zealand",
       "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast-medium",
-      "playerPrice": 1800000,
+      "playerPrice": 1800,
       "rating": 4.7
     },
     {
@@ -168,7 +168,7 @@
       "origin": "New Zealand",
       "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
-      "playerPrice": 1400000,
+      "playerPrice": 1400,
       "rating": 4.5
     },
     {
@@ -177,7 +177,7 @@
       "origin": "New Zealand",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "playerPrice": 1300000,
+      "playerPrice": 1300,
       "rating": 4.6
     },
     {
@@ -186,7 +186,7 @@
       "origin": "Australia",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
-      "playerPrice": 2200000,
+      "playerPrice": 2200,
       "rating": 4.8
     },
     {
@@ -195,7 +195,7 @@
       "origin": "Australia",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
-      "playerPrice": 2000000,
+      "playerPrice": 2000,
       "rating": 4.8
     },
     {
@@ -204,7 +204,7 @@
       "origin": "Australia",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "playerPrice": 2300000,
+      "playerPrice": 2300,
       "rating": 4.9
     },
     {
@@ -213,7 +213,7 @@
       "origin": "Australia",
       "playerType": "Bowler",
       "bolwingStyle": "Left-arm fast",
-      "playerPrice": 2200000,
+      "playerPrice": 2200,
       "rating": 4.8
     },
     {
@@ -222,7 +222,7 @@
       "origin": "Australia",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 2100000,
+      "playerPrice": 2100,
       "rating": 4.7
     },
     {
@@ -231,7 +231,7 @@
       "origin": "Australia",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 1800000,
+      "playerPrice": 1800,
       "rating": 4.8
     },
     {
@@ -240,7 +240,7 @@
       "origin": "England",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 2100000,
+      "playerPrice": 2100,
       "rating": 4.8
     },
     {
@@ -249,7 +249,7 @@
       "origin": "England",
       "playerType": "All-Rounder",
       "bolwingStyle": "Left-arm fast-medium",
-      "playerPrice": 2300000,
+      "playerPrice": 2300,
       "rating": 4.9
     },
     {
@@ -258,7 +258,7 @@
       "origin": "England",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "playerPrice": 2000000,
+      "playerPrice": 2000,
       "rating": 4.8
     },
     {
@@ -267,7 +267,7 @@
       "origin": "England",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast-medium",
-      "playerPrice": 1500000,
+      "playerPrice": 1500,
       "rating": 4.7
     },
     {
@@ -276,7 +276,7 @@
       "origin": "England",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "playerPrice": 1800000,
+      "playerPrice": 1800,
       "rating": 4.8
     },
     {
@@ -285,7 +285,7 @@
       "origin": "Sri Lanka",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Left-arm orthodox",
-      "playerPrice": 1900000,
+      "playerPrice": 1900,
       "rating": 4.8
     },
     {
@@ -294,7 +294,7 @@
       "origin": "Sri Lanka",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "playerPrice": 1700000,
+      "playerPrice": 1700,
       "rating": 4.8
     },
     {
@@ -303,7 +303,7 @@
       "origin": "Sri Lanka",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
-      "playerPrice": 1500000,
+      "playerPrice": 1500,
       "rating": 4.6
     },
     {
@@ -312,7 +312,7 @@
       "origin": "Sri Lanka",
       "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
-      "playerPrice": 1600000,
+      "playerPrice": 1600,
       "rating": 4.8
     },
     {
@@ -321,7 +321,7 @@
       "origin": "West Indies",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 2000000,
+      "playerPrice": 2000,
       "rating": 4.7
     },
     {
@@ -330,7 +330,7 @@
       "origin": "West Indies",
       "playerType": "Batsman",
       "bolwingStyle": "Left-arm medium",
-      "playerPrice": 1900000,
+      "playerPrice": 1900,
       "rating": 4.9
     },
     {
@@ -339,7 +339,7 @@
       "origin": "West Indies",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast",
-      "playerPrice": 2200000,
+      "playerPrice": 2200,
       "rating": 4.8
     },
     {
@@ -348,7 +348,7 @@
       "origin": "West Indies",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm fast-medium",
-      "playerPrice": 1600000,
+      "playerPrice": 1600,
       "rating": 4.7
     },
     {
@@ -357,7 +357,7 @@
       "origin": "West Indies",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 1800000,
+      "playerPrice": 1800,
       "rating": 4.8
     },
     {
@@ -366,7 +366,7 @@
       "origin": "South Africa",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Right-arm medium",
-      "playerPrice": 2300000,
+      "playerPrice": 2300,
       "rating": 4.7
     },
     {
@@ -375,7 +375,7 @@
       "origin": "South Africa",
       "playerType": "Wicketkeeper-Batsman",
       "bolwingStyle": "Slow left-arm orthodox",
-      "playerPrice": 1800000,
+      "playerPrice": 1800,
       "rating": 4.6
     },
     {
@@ -384,7 +384,7 @@
       "origin": "South Africa",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "playerPrice": 2000000,
+      "playerPrice": 2000,
       "rating": 4.7
     },
     {
@@ -393,7 +393,7 @@
       "origin": "South Africa",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm fast",
-      "playerPrice": 1800000,
+      "playerPrice": 1800,
       "rating": 4.8
     },
     {
@@ -402,7 +402,7 @@
       "origin": "South Africa",
       "playerType": "Batsman",
       "bolwingStyle": "Right-arm leg-break",
-      "playerPrice": 1700000,
+      "playerPrice": 1700,
       "rating": 4.7
     },
     {
@@ -411,7 +411,7 @@
       "origin": "Afghanistan",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm leg-break",
-      "playerPrice": 2200000,
+      "playerPrice": 2200,
       "rating": 4.8
     },
     {
@@ -420,7 +420,7 @@
       "origin": "Afghanistan",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 1500000,
+      "playerPrice": 1500,
       "rating": 4.6
     },
     {
@@ -429,7 +429,7 @@
       "origin": "Afghanistan",
       "playerType": "Bowler",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 1400000,
+      "playerPrice": 1400,
       "rating": 4.7
     },
     {
@@ -438,7 +438,7 @@
       "origin": "Pakistan",
       "playerType": "All-Rounder",
       "bolwingStyle": "Right-arm off-break",
-      "playerPrice": 1300000,
+      "playerPrice": 1300,
       "rating": 4.8
     },
     {
@@ -447,7 +447,7 @@
       "origin": "India",
       "playerType": "All-Rounder",
       "bolwingStyle": "Slow left-arm orthodox",
-      "playerPrice": 1800000,
+      "playerPrice": 1800,
       "rating": 4.7
     }
   ]

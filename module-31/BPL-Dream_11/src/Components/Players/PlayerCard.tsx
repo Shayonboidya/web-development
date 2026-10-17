@@ -3,11 +3,27 @@ import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { MdSportsCricket } from "react-icons/md";
 import { FaCheck, FaStar } from "react-icons/fa";
-import type { Iplayer } from "../../Types/Type";
+import type { IplayerCardCoin } from "../../Types/Type";
+import { toast } from "react-toastify";
 
-const PlayerCard = ({ player }: { player: Iplayer }) => {
+const PlayerCard = ({ player, coin, setCoin,selectedPlayer,setSelectedPlayer }: IplayerCardCoin) => {
     const [selected, setSelected] = useState(false);
-    console.log(selected);
+
+    const handelSelecetedPlayer = () => {
+        setSelected(true);
+        const newCoinPrice = coin - player.playerPrice;
+        if(newCoinPrice < 0){
+            toast.error("player is not allow persase")
+            setSelected(false);
+        }else{
+            setCoin(newCoinPrice);
+            toast.success(`${player.playerName} is pursasec success`)
+        }
+
+        // seleceted
+        setSelectedPlayer([...selectedPlayer ,player]);
+
+    }
     return (
         <div className="group relative overflow-hidden rounded-2xl
       border border-base-300 bg-base-100 shadow-lg
@@ -117,12 +133,12 @@ const PlayerCard = ({ player }: { player: Iplayer }) => {
                 </div>
 
                 <button
-                    onClick={() => setSelected(true)}
+                    onClick={handelSelecetedPlayer}
                     disabled={selected ? true : false}
                     className={`btn w-full rounded-xl border-0 text-base
             font-bold shadow-md transition-all duration-200
             hover:shadow-lg ${selected
-                            ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                            ? ""
                             : "bg-primary text-primary-content hover:brightness-110"
                         }`
                     }
