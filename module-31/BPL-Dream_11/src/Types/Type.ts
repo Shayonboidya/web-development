@@ -1,3 +1,5 @@
+import type { Dispatch, SetStateAction } from "react";
+
 export interface Iplayer {
     playerName: string,
     playerImg: string,
@@ -9,4 +11,6 @@ export interface Iplayer {
 }
 export interface playerType {
     playesPromice: Promise<Iplayer[]>
+    coin: number;
+    setCoin:Dispatch<SetStateAction<number>>;
 }

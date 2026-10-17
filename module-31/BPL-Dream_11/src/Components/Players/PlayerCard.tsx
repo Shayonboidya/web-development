@@ -7,7 +7,7 @@ import type { Iplayer } from "../../Types/Type";
 
 const PlayerCard = ({ player }: { player: Iplayer }) => {
     const [selected, setSelected] = useState(false);
-
+    console.log(selected);
     return (
         <div className="group relative overflow-hidden rounded-2xl
       border border-base-300 bg-base-100 shadow-lg
@@ -33,10 +33,10 @@ const PlayerCard = ({ player }: { player: Iplayer }) => {
                 <div className="absolute inset-0 bg-linear-to-t
           from-black/80 via-transparent to-black/20" />
 
-                <span className="absolute left-4 top-4 rounded-full
-          bg-emerald-500/90 px-3 py-1 text-xs font-bold
-          text-white shadow">
-                    AVAILABLE
+                <span className={`absolute left-4 top-4 rounded-full ${selected ? "bg-red-500" : "bg-emerald-500/90"}
+           px-3 py-1 text-xs font-bold
+          text-white shadow`}>
+                    {selected ? "SOLD" : "AVAILABLE"}
                 </span>
 
                 <div className="absolute bottom-4 left-4 right-4">
@@ -117,14 +117,17 @@ const PlayerCard = ({ player }: { player: Iplayer }) => {
                 </div>
 
                 <button
-                    onClick={() => setSelected(!selected)}
+                    onClick={() => setSelected(true)}
+                    disabled={selected ? true : false}
                     className={`btn w-full rounded-xl border-0 text-base
             font-bold shadow-md transition-all duration-200
             hover:shadow-lg ${selected
                             ? "bg-emerald-600 text-white hover:bg-emerald-700"
                             : "bg-primary text-primary-content hover:brightness-110"
-                        }`}
+                        }`
+                    }
                 >
+
                     {selected ? (
                         <>
                             <FaCheck /> Player Selected

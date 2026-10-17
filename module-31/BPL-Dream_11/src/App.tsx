@@ -1,10 +1,11 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import Banner from "./Components/Banner"
 import Nav from "./Components/Nav"
 import Playes from "./Components/Players/Playes";
 import type { Iplayer } from "./Types/Type";
 
 function App() {
+    const [coin, setCoin] = useState(200000000);
 
     const playesPromice = async (): Promise<Iplayer[]> => {
         const res = await fetch('/data.json');
@@ -14,10 +15,10 @@ function App() {
     return (
         <>
 
-            <Nav></Nav>
+            <Nav coin={coin}></Nav>
             <Banner></Banner>
             <Suspense fallback={<p>loading...</p>}>
-                <Playes playesPromice={playesPromice()} ></Playes>
+                <Playes playesPromice={playesPromice()} coin={coin} setCoin={setCoin} ></Playes>
 
             </Suspense>
         </>
