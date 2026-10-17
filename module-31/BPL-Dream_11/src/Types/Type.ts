@@ -31,10 +31,16 @@ export interface IplayerCardCoin {
     setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
 }
 export interface ISelectedPlayers {
+    coin: number;
+    setCoin: Dispatch<SetStateAction<number>>;
     selectedPlayer: Iplayer[];
     setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
-
+    
 }
 export interface ISelectedPlayerCard {
+    coin: number;
+    setCoin: Dispatch<SetStateAction<number>>;
+    selectedPlayer: Iplayer[];
+    setSelectedPlayer: Dispatch<SetStateAction<Iplayer[]>>;
     player: Iplayer;
 }

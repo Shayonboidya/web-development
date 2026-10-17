@@ -1,5 +1,5 @@
 import { use, useState } from 'react';
-import {type Iplayer, type IplayerType } from '../../Types/Type';
+import { type Iplayer, type IplayerType } from '../../Types/Type';
 import AviablePlayers from './AviablePlayers';
 import SelectedPlayers from './SelectedPlayers';
 
@@ -34,7 +34,9 @@ const Playes = ({ playesPromice, coin, setCoin }: IplayerType) => {
 
                 <SelectedPlayers
                     selectedPlayer={selectedPlayer}
-                    setSelectedPlayer={setSelectedPlayer}>
+                    setSelectedPlayer={setSelectedPlayer}
+                    coin={coin}
+                    setCoin={setCoin}>
                 </SelectedPlayers>}
 
 

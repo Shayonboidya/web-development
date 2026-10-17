@@ -1,16 +1,42 @@
 
-import type { ISelectedPlayerCard } from "../../Types/Type";
 import { RiDeleteBin6Line } from "react-icons/ri";
-import { FaUser, FaMapMarkerAlt } from "react-icons/fa";
+import type { Iplayer, ISelectedPlayerCard } from "../../Types/Type";
+import { FaMapMarkerAlt, FaUser } from "react-icons/fa";
 import { MdSportsCricket } from "react-icons/md";
+import { Bounce, toast } from "react-toastify";
 
-const SelectedPlayerCard = ({ player }: ISelectedPlayerCard) => {
+
+const SelectedPlayerCard = ({ player, selectedPlayer, setSelectedPlayer, coin, setCoin }: ISelectedPlayerCard) => {
+
+
+    const handelRemovedPlayer = (player: Iplayer) => {
+        const restPlayer = selectedPlayer.filter((p: Iplayer) => p.playerName != player.playerName);
+        console.log(restPlayer);
+        setSelectedPlayer(restPlayer);
+        setCoin(coin + player.playerPrice);
+
+        toast(`${player.playerName} is removed hare`, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
+    }
+
     return (
         <div className="group flex w-full min-w-0 items-center gap-3
             rounded-2xl border border-base-300 bg-base-100
             p-3 shadow-sm transition-all duration-300
             hover:-translate-y-0.5 hover:border-primary/40
             hover:shadow-lg sm:gap-4 sm:p-4">
+
+
+
 
             {/* Player Image */}
             <div className="relative shrink-0">
@@ -63,6 +89,7 @@ const SelectedPlayerCard = ({ player }: ISelectedPlayerCard) => {
             {/* Delete Icon: Design Only */}
             <div className="shrink-0">
                 <span
+                    onClick={() => handelRemovedPlayer(player)}
                     className="flex h-9 w-9 items-center justify-center
                         rounded-xl bg-red-500/10 text-xl text-red-500
                         transition-all duration-200
