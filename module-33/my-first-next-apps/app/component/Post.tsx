@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 interface postType {
     id: number,
@@ -9,9 +10,9 @@ interface postType {
     description: string,
     date: string,
     readTime: string
-}cd modu
+}
 
-const Post = ({ post }: { post: postType}) => {
+const Post = ({ post }: { post: postType }) => {
     return (
         <div className="card bg-base-100 image-full w-96 shadow-sm">
             <figure>
@@ -26,7 +27,9 @@ const Post = ({ post }: { post: postType}) => {
                 <h2 className="card-title">{post.title}</h2>
                 <p>{post.description}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <Link href={`/blogs/${post.id}`}>
+                        <button className="btn btn-primary">Buy Now</button>
+                    </Link>
                 </div>
             </div>
         </div>
