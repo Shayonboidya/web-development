@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface postType {
     id: number,
@@ -16,7 +17,7 @@ const Post = ({ post }: { post: postType }) => {
     return (
         <div className="card bg-base-100 image-full w-96 shadow-sm">
             <figure>
-                <img
+                <Image
                     src={post.image}
                     alt="Shoes"
                     width={500}

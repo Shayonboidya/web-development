@@ -1,16 +1,25 @@
+'use client'
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import React from 'react';
-const links = <>
-    <li><Link href='/docs'>Docs</Link></li>
-    <li><Link href='/showcase'>Showcase</Link></li>
-    <li><Link href='/about'>About</Link></li>
-    <li><Link href='/blogs'>Blogs</Link></li>
-    <li><Link href='/dashbord'>Dashbord</Link></li>
-    <li><Link href='/users'>Users</Link></li>
-</>
 
 
 const Navber = () => {
+    const pathName = usePathname();
+
+    const links = <>
+        <li><Link className={`${pathName === '/docs' ? 'text-blue-500' : ''}`} href='/docs'>Docs</Link></li>
+
+        <li><Link className={`${pathName === '/showcase' ? 'text-blue-500' : ''}`} href='/showcase'>Showcase</Link></li>
+
+        <li><Link className={`${pathName === '/about' ? 'text-blue-500' : ''}`} href='/about'>About</Link></li>
+
+        <li><Link className={`${pathName === '/blogs' ? 'text-blue-500' : ''}`} href='/blogs'>Blogs</Link></li>
+
+        <li><Link className={`${pathName === '/dashbord' ? 'text-blue-500' : ''}`} href='/dashbord'>Dashbord</Link></li>
+
+        <li><Link className={`${pathName === '/users' ? 'text-blue-500' : ''}`} href='/users'>Users</Link></li>
+    </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">

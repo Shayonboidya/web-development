@@ -1,5 +1,10 @@
 import React from 'react';
 import Post from '../component/Post';
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'blogs',
+  description: '...',
+}
 // TODO : fatch data from an API instaed of using static data
 const blogsData = [
   {

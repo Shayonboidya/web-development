@@ -1,9 +1,19 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
 
+interface User {
+    id: number;
+    name: string;
+}
+
+export const metadata: Metadata = {
+    title: 'users',
+    description: '...',
+}
 const UserPage = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
-    const users = await res.json();
+    const users: User[] = await res.json();
     return (
         <div>
             <h3>user : {users.length} </h3>
