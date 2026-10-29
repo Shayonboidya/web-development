@@ -5,6 +5,8 @@ const links = <>
     <li><Link href='/showcase'>Showcase</Link></li>
     <li><Link href='/about'>About</Link></li>
     <li><Link href='/blogs'>Blogs</Link></li>
+    <li><Link href='/dashbord'>Dashbord</Link></li>
+    <li><Link href='/users'>Users</Link></li>
 </>
 
 
