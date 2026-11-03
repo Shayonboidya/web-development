@@ -2,10 +2,11 @@ import React from 'react';
 import FoodCard from '../component/FoodCard';
 
 interface IFood {
-    id: string ;
-    dish_name:string;
-    rating:number;
-    price:number;
+    id: string;
+    dish_name: string;
+    rating: number;
+    price: number;
+    image_link: string;
 }
 
 const ManuPage = async () => {
