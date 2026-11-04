@@ -1,12 +1,7 @@
 import React from 'react';
 import Post from '../component/Post';
+import { PostData } from '../Type';
 
-interface PostData {
-    userId: number;
-    id: number;
-    title: string;
-    body: string;
-}
 
 const PostsPage = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
