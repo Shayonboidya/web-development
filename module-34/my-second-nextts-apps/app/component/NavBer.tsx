@@ -6,6 +6,7 @@ const NavBer = () => {
         <li><Link href={`/dashbord`}>Dashbord</Link></li>
         <li><Link href={`/manu`}>Manu</Link></li>
         <li><Link href={`/posts`}>Posts</Link></li>
+        <li><Link href={`/food`}>Food</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">

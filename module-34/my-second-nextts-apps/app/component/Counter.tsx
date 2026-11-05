@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 
 const Counter = () => {
     const [count, setCount] = useState(0);
-    console.log("counter component");
+    // console.log("counter component");
     const handelClick = ()=>{
-        console.log("counter incress");
+        // console.log("counter incress");
         setCount(count + 1);
     }
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Counter from '../component/Counter';
 
 const DashbordPage = () => {
-    console.log("this is dashbord");
+    // console.log("this is dashbord");
     return (
         <div className='container mx-auto'>
             <Counter></Counter>
