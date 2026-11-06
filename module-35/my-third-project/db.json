@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 16 Pro",
+      "category": "Electronics",
+      "price": 125000,
+      "description": "Apple iPhone 16 Pro with A18 Pro chip and advanced camera system.",
+      "image": "https://placehold.co/400x300?text=iPhone+16+Pro",
+      "rating": 4.9,
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S25",
+      "category": "Electronics",
+      "price": 95000,
+      "description": "Samsung flagship smartphone with powerful performance and AI features.",
+      "image": "https://placehold.co/400x300?text=Galaxy+S25",
+      "rating": 4.8,
+      "stock": 20
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air M3",
+      "category": "Computers",
+      "price": 145000,
+      "description": "Lightweight Apple laptop powered by the M3 chip.",
+      "image": "https://placehold.co/400x300?text=MacBook+Air",
+      "rating": 4.9,
+      "stock": 8
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 13",
+      "category": "Computers",
+      "price": 135000,
+      "description": "Premium ultrabook with a stunning display and powerful processor.",
+      "image": "https://placehold.co/400x300?text=Dell+XPS+13",
+      "rating": 4.7,
+      "stock": 12
+    },
+    {
+      "id": 5,
+      "name": "Sony WH-1000XM5",
+      "category": "Accessories",
+      "price": 32000,
+      "description": "Wireless headphones with industry-leading noise cancellation.",
+      "image": "https://placehold.co/400x300?text=Sony+Headphones",
+      "rating": 4.8,
+      "stock": 25
+    },
+    {
+      "id": 6,
+      "name": "Apple Watch Series 10",
+      "category": "Wearables",
+      "price": 48000,
+      "description": "Smartwatch with fitness tracking and health monitoring features.",
+      "image": "https://placehold.co/400x300?text=Apple+Watch",
+      "rating": 4.6,
+      "stock": 18
+    },
+    {
+      "id": 7,
+      "name": "Logitech MX Master 3S",
+      "category": "Accessories",
+      "price": 12500,
+      "description": "Advanced wireless mouse designed for productivity and comfort.",
+      "image": "https://placehold.co/400x300?text=Logitech+Mouse",
+      "rating": 4.8,
+      "stock": 30
+    },
+    {
+      "id": 8,
+      "name": "iPad Air M2",
+      "category": "Tablets",
+      "price": 72000,
+      "description": "Powerful tablet with M2 chip and Liquid Retina display.",
+      "image": "https://placehold.co/400x300?text=iPad+Air",
+      "rating": 4.7,
+      "stock": 10
+    },
+    {
+      "id": 9,
+      "name": "Canon EOS R50",
+      "category": "Cameras",
+      "price": 85000,
+      "description": "Mirrorless camera suitable for photography and content creation.",
+      "image": "https://placehold.co/400x300?text=Canon+EOS",
+      "rating": 4.6,
+      "stock": 7
+    },
+    {
+      "id": 10,
+      "name": "JBL Flip 6",
+      "category": "Audio",
+      "price": 11500,
+      "description": "Portable Bluetooth speaker with powerful stereo sound.",
+      "image": "https://placehold.co/400x300?text=JBL+Flip+6",
+      "rating": 4.5,
+      "stock": 22
+    }
+  ]
+}
