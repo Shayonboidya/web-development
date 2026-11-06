@@ -8,3 +8,15 @@ export interface Iproduct {
     rating: number,
     stock: number
 }
+
+export interface Ibook {
+    id: number,
+    title:string,
+    author:string,
+    category: string,
+    price: number,
+    description: string,
+    image: string,
+    rating: number,
+    stock: number
+}

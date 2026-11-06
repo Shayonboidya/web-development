@@ -7,6 +7,7 @@ const NavBer = () => {
         <li><Link href={`/Dashbord`}>Dashbord</Link></li>
         <li><Link href={`/Blogs`}>Blogs</Link></li>
         <li><Link href={`/products`}>Products</Link></li>
+        <li><Link href={`/books`}>Books</Link></li>
         <li><Link href={`/posts`}>Posts</Link></li>
     </>
     return (
