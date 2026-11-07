@@ -112,7 +112,7 @@ const BookPage = async ({
                                     key={index}
                                     className="badge badge-success badge-outline px-4 py-3"
                                 >
-                                    #{tag}
+                                    {tag}
                                 </span>
                             ))}
                         </div>
@@ -139,6 +139,10 @@ const BookPage = async ({
                         <p className="text-sm leading-7 text-base-content/70">
                             {book.review}
                         </p>
+                    </div>
+                    <div className="flex gap-4">
+                        <button className="btn btn-soft btn-info">Read</button>
+                        <button className="btn btn-soft btn-accent">Wish List</button>
                     </div>
 
                 </div>
