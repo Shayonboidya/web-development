@@ -9,6 +9,9 @@ export default function Banner() {
 
                     {/* Text Content */}
                     <div className="w-full text-center lg:w-1/2 lg:text-left">
+                        <span className="mb-4 inline-block rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-600">
+                            Discover Your Next Favorite
+                        </span>
 
                         <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl">
                             Books to freshen up your bookshelf
