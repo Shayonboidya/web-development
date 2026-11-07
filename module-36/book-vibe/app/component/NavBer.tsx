@@ -10,6 +10,7 @@ const NavBer = () => {
 
     const navLinks = [
         { name: "Home", href: "/" },
+        { name: "Books", href: "/books" },
         { name: "Listed Books", href: "/listed-books" },
         { name: "Pages to Read", href: "/page-to-read" },
     ];
