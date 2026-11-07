@@ -3,7 +3,8 @@ import ProductCard from '../components/ProductCard';
 import { Iproduct } from '../Type';
 
 const getProducts = async ()=>{
-    const res = await fetch("http://localhost:5000/products", {cache:'no-store'});
+    // const res = await fetch("http://localhost:5000/products", {cache:'no-store'});
+    const res = await fetch("http://localhost:5000/products", {cache:'force-cache'});
     return res.json();
 }
 const ProductsPage = async() => {

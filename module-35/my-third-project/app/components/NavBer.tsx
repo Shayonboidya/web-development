@@ -1,7 +1,12 @@
+"use client"
 import Link from 'next/link';
-import React from 'react';
+import React, { use } from 'react';
+import { UserContext } from '../context/userContext';
 
 const NavBer = () => {
+
+    const user = use(UserContext);
+    console.log("userContex form navber: ", user);
     const navLinks = <>
         <li><Link href={`/Home`}>Home</Link></li>
         <li><Link href={`/Dashbord`}>Dashbord</Link></li>
