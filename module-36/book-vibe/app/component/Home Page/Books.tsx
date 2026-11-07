@@ -1,7 +1,7 @@
 
 import React from "react";
-import BookSmallCard from "./BookSmallCard";
 import { IBookSmallCard } from "@/app/Type";
+import BookSmallCard from "./BookSmallCard";
 
 // Load books data
 const getData = async (): Promise<IBookSmallCard[]> => {
@@ -21,7 +21,7 @@ const Books = async () => {
         <section className="container mx-auto my-16 px-4 sm:my-20 lg:my-24">
 
             {/* Section Heading */}
-            <div className="mb-10 flex flex-col items-center justify-between gap-4 sm:flex-row">
+            <div className="mb-10 flex flex-col text-center items-center justify-center gap-4 sm:flex-row">
                 <div>
                     <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-success">
                         Explore Our Collection
@@ -36,9 +36,9 @@ const Books = async () => {
                     </p>
                 </div>
 
-                <div className="rounded-xl bg-success/10 px-5 py-3 text-sm font-semibold text-success">
+                {/* <div className="rounded-xl bg-success/10 px-5 py-3 text-sm font-semibold text-success">
                     {books.length} Books Available
-                </div>
+                </div> */}
             </div>
 
             {/* Books Grid */}
