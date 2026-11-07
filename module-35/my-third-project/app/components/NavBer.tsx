@@ -1,7 +1,5 @@
 "use client"
 import Link from 'next/link';
-import React, { use } from 'react';
-import { UserContext } from '../context/userContext';
 import useUser from '../hooks/useUser';
 
 const NavBer = () => {
