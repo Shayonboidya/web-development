@@ -10,8 +10,8 @@ const NavBer = () => {
 
     const navLinks = [
         { name: "Home", href: "/" },
-        { name: "Listed Books", href: "/" },
-        { name: "Pages to Read", href: "/" },
+        { name: "Listed Books", href: "/listed-books" },
+        { name: "Pages to Read", href: "/page-to-read" },
     ];
 
     return (
@@ -80,7 +80,7 @@ const NavBer = () => {
                     <ul className="menu menu-horizontal gap-2 px-1 font-medium">
                         {navLinks.map((link) => (
                             <li key={link.href}>
-                                <Link
+                                <Link   
                                     href={link.href}
                                     className="rounded-lg transition-all duration-200 hover:bg-success/10 hover:text-success"
                                 >
