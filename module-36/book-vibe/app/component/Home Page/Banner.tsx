@@ -4,7 +4,7 @@ import bannerImg from "@/assets/hero_img.jpg";
 export default function Banner() {
     return (
         <section className="container mx-auto px-4 py-8">
-            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-orange-50 via-amber-50 to-yellow-100">
+            <div className="relative overflow-hidden rounded-3xl bg-linear-to-r from-orange-50 via-amber-50 to-yellow-100">
                 <div className="flex flex-col-reverse items-center justify-between gap-8 px-6 py-10 sm:px-10 md:px-14 lg:flex-row lg:px-20 lg:py-16">
 
                     {/* Text Content */}
