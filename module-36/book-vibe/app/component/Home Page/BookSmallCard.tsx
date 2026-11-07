@@ -6,7 +6,8 @@ import React from "react";
 
 const BookSmallCard = ({ book }: { book: IBookSmallCard }) => {
     return (
-        <section
+        <Link
+            href={`/books/${book.bookId}`}
             className="group flex h-full flex-col gap-4 rounded-2xl border border-base-300 bg-base-100 p-4 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl sm:p-5"
         >
             {/* Book Image */}
@@ -61,12 +62,12 @@ const BookSmallCard = ({ book }: { book: IBookSmallCard }) => {
 
                 {/* View Details */}
                 <div className="mt-auto flex justify-center">
-                    <Link href={`/books/${book.bookId}`} className="text-sm font-semibold text-success transition-transform duration-300 group-hover:translate-x-1">
+                    <button className="text-sm font-semibold text-success transition-transform duration-300 group-hover:translate-x-1">
                         View Details →
-                    </Link>
+                    </button>
                 </div>
             </div>
-        </section>
+        </Link>
     );
 };
 
