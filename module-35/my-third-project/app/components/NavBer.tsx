@@ -2,10 +2,12 @@
 import Link from 'next/link';
 import React, { use } from 'react';
 import { UserContext } from '../context/userContext';
+import useUser from '../hooks/useUser';
 
 const NavBer = () => {
 
-    const user = use(UserContext);
+    // const user = use(UserContext);
+    const user = useUser();
     console.log("userContex form navber: ", user);
     const navLinks = <>
         <li><Link href={`/Home`}>Home</Link></li>
@@ -15,7 +17,7 @@ const NavBer = () => {
         <li><Link href={`/books`}>Books</Link></li>
         <li><Link href={`/posts`}>Posts</Link></li>
     </>
-    return (
+    return ( 
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
                 <div className="dropdown">
