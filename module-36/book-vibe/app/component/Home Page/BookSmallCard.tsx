@@ -1,10 +1,10 @@
 
-import { IBookSmallCard } from "@/app/Type";
+import { IBook } from "@/app/Type";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const BookSmallCard = ({ book }: { book: IBookSmallCard }) => {
+const BookSmallCard = ({ book }: { book: IBook }) => {
     return (
         <Link
             href={`/books/${book.bookId}`}

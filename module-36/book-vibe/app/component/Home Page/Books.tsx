@@ -1,10 +1,10 @@
 
 import React from "react";
-import { IBookSmallCard } from "@/app/Type";
+import { IBook } from "@/app/Type";
 import BookSmallCard from "./BookSmallCard";
 
 // Load books data
-const getData = async (): Promise<IBookSmallCard[]> => {
+const getData = async (): Promise<IBook[]> => {
     const res = await fetch("http://localhost:3000/booksData.json");
 
     if (!res.ok) {
@@ -15,7 +15,7 @@ const getData = async (): Promise<IBookSmallCard[]> => {
 };
 
 const Books = async () => {
-    const books: IBookSmallCard[] = await getData();
+    const books: IBook[] = await getData();
 
     return (
         <section className="container mx-auto my-16 px-4 sm:my-20 lg:my-24">
