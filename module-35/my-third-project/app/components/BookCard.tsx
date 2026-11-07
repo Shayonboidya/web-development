@@ -1,7 +1,8 @@
 import React from 'react';
 import { Ibook } from '../Type';
+import Link from 'next/link';
 
-const BookCard = ({book}:{book:Ibook}) => {
+const BookCard = ({ book }: { book: Ibook }) => {
     return (
 
         <div className="card bg-base-100 shadow-xl border border-base-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
@@ -66,8 +67,10 @@ const BookCard = ({book}:{book:Ibook}) => {
                 {/* Action Button */}
                 <div className="card-actions mt-2">
                     <button className="btn btn-primary w-full rounded-xl hover:scale-[1.02] transition-transform">
-                        <span>Buy Book</span>
-                        <span>→</span>
+                        <Link href={`/books/${book.id}`}>
+                            <span>Buy Book</span>
+                            <span>→</span>
+                        </Link>
                     </button>
                 </div>
 
