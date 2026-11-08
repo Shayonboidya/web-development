@@ -1,13 +1,13 @@
 "use client"
 
 import React, { useState } from 'react';
-import { createContext } from 'vm';
+import { createContext } from 'react';
 
-const BooksContext = createContext({});
+export const BooksContext = createContext({});
 
 const BooksProvider = ({ children }: { children: React.ReactNode }) => {
-    const [readBooks, setReadBooks] = useState([]);
-    const [wishList, setWishList] = useState([]);
+    const [readBooks, setReadBooks] = useState<string[]>([]);
+    const [wishList, setWishList] = useState<string[]>([]);
 
     const shareData = {
         readBooks, setReadBooks, wishList, setWishList

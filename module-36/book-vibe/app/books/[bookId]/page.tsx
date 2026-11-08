@@ -1,4 +1,5 @@
 
+import ReadButton from "@/app/component/BooksDetails/ReadButton";
 import { IBook } from "@/app/Type";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -141,7 +142,7 @@ const BookPage = async ({
                         </p>
                     </div>
                     <div className="flex gap-4">
-                        <button className="btn btn-soft btn-info">Read</button>
+                        <ReadButton book={book}></ReadButton>
                         <button className="btn btn-soft btn-accent">Wish List</button>
                     </div>
 
