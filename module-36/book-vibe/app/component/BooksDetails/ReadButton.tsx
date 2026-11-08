@@ -1,7 +1,7 @@
 "use client"
 
 import { IBook } from '@/app/Type';
-import { BooksContext } from '@/context/BooksContext';
+import { BooksContext } from '@/context/BooksProvider';
 import React, { useContext } from 'react';
 
 const ReadButton = ({ book }: { book: IBook }) => {

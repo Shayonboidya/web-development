@@ -1,5 +1,5 @@
 "use client"
-import { BooksContext } from '@/context/BooksContext';
+import { BooksContext } from '@/context/BooksProvider';
 import React, { useContext } from 'react';
 import { IBook } from '../Type';
 
