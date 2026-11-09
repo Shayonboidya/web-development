@@ -2,6 +2,7 @@ import { IBook } from '@/app/Type';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import RemovedWishlistBook from './RemovedBook/RemovedWishlistBook ';
 
 const WishListBooksComponet = ({ book }: { book: IBook }) => {
     return (
@@ -23,9 +24,14 @@ const WishListBooksComponet = ({ book }: { book: IBook }) => {
 
                 {/* Title & Author */}
                 <div>
-                    <span className="badge badge-success badge-outline mb-3">
-                        {book.category}
-                    </span>
+                    <div className="flex items-center justify-between gap-3">
+                        {/* Category */}
+                        <span className="badge badge-success badge-outline px-4 py-3 text-xs font-semibold sm:text-sm">
+                            {book.category}
+                        </span>
+                        <RemovedWishlistBook book={book}></RemovedWishlistBook>
+
+                    </div>
 
                     <h2 className="text-2xl font-bold text-base-content transition-colors group-hover:text-success sm:text-3xl">
                         {book.bookName}
