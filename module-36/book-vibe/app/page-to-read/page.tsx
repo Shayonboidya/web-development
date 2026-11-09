@@ -104,7 +104,7 @@ const PageToReadPage = () => {
             <div className="mx-auto max-w-7xl">
 
                 {/* Page Header */}
-                <div className="mb-8 overflow-hidden rounded-3xl bg-gradient-to-r from-success to-emerald-700 p-6 text-white shadow-xl sm:p-10">
+                <div className="mb-8 overflow-hidden rounded-3xl bg-linear-to-r from-success to-emerald-700 p-6 text-white shadow-xl sm:p-10">
                     <div className="relative z-10">
                         <p className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-white/80">
                             Your Reading Journey
@@ -261,7 +261,7 @@ const PageToReadPage = () => {
                                     <Bar
                                         dataKey="uv"
                                         name="Total Pages"
-                                        shape={<TriangleBar />}
+                                        shape={TriangleBar}
                                         activeBar
                                         radius={[8, 8, 0, 0]}
                                     >
@@ -275,7 +275,7 @@ const PageToReadPage = () => {
                         </div>
                     ) : (
                         /* Empty State */
-                        <div className="flex min-h-[350px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-base-300 bg-base-200/30 px-5 py-12 text-center">
+                        <div className="flex min-h-85.5 flex-col items-center justify-center rounded-2xl border-2 border-dashed border-base-300 bg-base-200/30 px-5 py-12 text-center">
 
                             <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-success/10 text-4xl">
                                 📚
@@ -286,7 +286,7 @@ const PageToReadPage = () => {
                             </h3>
 
                             <p className="mt-3 max-w-md text-sm leading-relaxed text-base-content/60">
-                                You haven't added any books to your reading
+                                You haven&apos;t added any books to your reading
                                 list yet. Explore our collection and start
                                 building your reading journey.
                             </p>
