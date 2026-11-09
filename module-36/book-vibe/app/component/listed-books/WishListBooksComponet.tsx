@@ -1,10 +1,10 @@
-import { IBook } from '@/app/Type';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import RemovedWishlistBook from './RemovedBook/RemovedWishlistBook ';
+import Image from 'next/image';
+import { IBook } from '@/app/Type';
 
-const WishListBooksComponet = ({ book }: { book: IBook }) => {
+const WishListBooksComponet = ({book}:{book:IBook}) => {
     return (
         <div className="group flex flex-col gap-6 rounded-2xl border border-base-300 bg-base-100 p-8 my-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl sm:p-7 lg:flex-row">
 
