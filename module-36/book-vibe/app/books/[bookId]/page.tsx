@@ -7,7 +7,7 @@ import { notFound } from "next/navigation";
 
 // Load books data
 const getBooks = async (): Promise<IBook[]> => {
-    const res = await fetch("http://localhost:3000/booksData.json");
+    const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
 
     if (!res.ok) {
         throw new Error("Failed to fetch books data");

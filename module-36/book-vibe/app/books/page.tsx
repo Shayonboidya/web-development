@@ -5,7 +5,7 @@ import BookSmallCard from "../component/Home Page/BookSmallCard";
 
 // Load books data
 const getData = async (): Promise<IBook[]> => {
-    const res = await fetch("http://localhost:3000/booksData.json");
+    const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
 
     if (!res.ok) {
         throw new Error("Failed to fetch books data");

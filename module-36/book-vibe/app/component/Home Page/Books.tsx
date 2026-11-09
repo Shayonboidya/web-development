@@ -5,7 +5,7 @@ import BookSmallCard from "./BookSmallCard";
 
 // Load books data
 const getData = async (): Promise<IBook[]> => {
-    const res = await fetch("http://localhost:3000/booksData.json");
+    const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
 
     if (!res.ok) {
         throw new Error("Failed to fetch books data");
@@ -43,7 +43,7 @@ const Books = async () => {
 
             {/* Books Grid */}
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 ">
-                {books.slice(0,9).map((book) => (
+                {books.slice(0, 9).map((book) => (
                     <BookSmallCard key={book.bookId} book={book} />
                 ))}
             </div>
