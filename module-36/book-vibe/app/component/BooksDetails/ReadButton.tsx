@@ -11,9 +11,13 @@ const ReadButton = ({ book }: { book: IBook }) => {
         setReadBooks: React.Dispatch<React.SetStateAction<IBook[]>>;
     };
 
+    const haveAlrady = readBooks.find(b => b.bookId === book.bookId);
+
     const handelClickToRead = () => {
         // console.log("Read books button", book);
-        setReadBooks([...readBooks, book]);
+        if (!haveAlrady) {
+            setReadBooks([...readBooks, book]);
+        }
         toast.success(`You have Read ${book.bookName}`);
 
     }

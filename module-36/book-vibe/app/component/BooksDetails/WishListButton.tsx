@@ -11,9 +11,11 @@ const WishListButton = ({ book }: { book: IBook }) => {
         setWishList: React.Dispatch<React.SetStateAction<IBook[]>>;
     };
 
-
+    const haveAlrady = wishList.find(b => b.bookId === book.bookId);
     const handelClickToWishList = () => {
-        setWishList([...wishList, book]);
+        if (!haveAlrady) {
+            setWishList([...wishList, book]);
+        }
         toast.success(`Add Wish List to ${book.bookName}`);
     }
     // console.log("wishList", wishList);
