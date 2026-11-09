@@ -18,14 +18,17 @@ const ListedBooksPage = () => {
                 <input type="radio" name="my_tabs_3" className="tab" aria-label={`Reads Books (${readBooks.length})`} />
                 <div className="tab-content bg-base-100 border-base-300 p-6">
                     {
-                        readBooks.length > 0 ? <ReadBooksComponent></ReadBooksComponent> : <p className='text-center text-slate-400'>Not Books found</p>
+                        readBooks.length > 0 ?
+                            readBooks.map(book => <ReadBooksComponent key={book.bookId} book={book}></ReadBooksComponent>)
+                            : <p className='text-center text-slate-400'>Not Books found</p>
                     }
                 </div>
 
                 <input type="radio" name="my_tabs_3" className="tab" aria-label={`Wishlist Books (${wishList.length})`} defaultChecked />
                 <div className="tab-content bg-base-100 border-base-300 p-6">
                     {
-                        wishList.length > 0 ? <WishListBooksComponet></WishListBooksComponet> : <p className='text-center text-slate-400'>Not Books found</p>
+                        wishList.length > 0 ?
+                            wishList.map(book => <WishListBooksComponet key={book.bookId} book={book}></WishListBooksComponet>) : <p className='text-center text-slate-400'>Not Books found</p>
                     }
                 </div>
 
