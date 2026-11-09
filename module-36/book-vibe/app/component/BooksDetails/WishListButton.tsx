@@ -3,6 +3,7 @@
 import { IBook } from '@/app/Type';
 import { BooksContext } from '@/context/BooksContext';
 import React, { useContext } from 'react';
+import { toast } from 'react-toastify';
 
 const WishListButton = ({ book }: { book: IBook }) => {
     const { wishList, setWishList } = useContext(BooksContext) as {
@@ -13,8 +14,9 @@ const WishListButton = ({ book }: { book: IBook }) => {
 
     const handelClickToWishList = () => {
         setWishList([...wishList, book]);
+        toast.success(`Add Wish List to ${book.bookName}`);
     }
-    console.log("wishList", wishList);
+    // console.log("wishList", wishList);
 
     return (
         <button className="btn btn-soft btn-accent" onClick={() => handelClickToWishList()}>Wish List</button>
