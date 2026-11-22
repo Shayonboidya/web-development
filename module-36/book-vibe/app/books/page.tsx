@@ -1,21 +1,9 @@
-
-import React from "react";
 import { IBook } from "@/app/Type";
 import BookSmallCard from "../component/Home Page/BookSmallCard";
-
-// Load books data
-const getData = async (): Promise<IBook[]> => {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
-
-    if (!res.ok) {
-        throw new Error("Failed to fetch books data");
-    }
-
-    return res.json();
-};
+import { fetchBooks } from "@/app/lib/books";
 
 const BooksPage = async () => {
-    const books: IBook[] = await getData();
+    const books: IBook[] = await fetchBooks();
 
     return (
         <section className="container mx-auto my-16 px-4 sm:my-20 lg:my-24">

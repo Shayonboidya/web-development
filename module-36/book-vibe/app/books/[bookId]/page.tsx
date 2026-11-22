@@ -4,17 +4,7 @@ import WishListButton from "@/app/component/BooksDetails/WishListButton";
 import { IBook } from "@/app/Type";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-
-// Load books data
-const getBooks = async (): Promise<IBook[]> => {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
-
-    if (!res.ok) {
-        throw new Error("Failed to fetch books data");
-    }
-
-    return res.json();
-};
+import { fetchBooks } from "@/app/lib/books";
 
 const BookPage = async ({
     params,
@@ -30,8 +20,7 @@ const BookPage = async ({
         notFound();
     }
 
-    // Get books
-    const books: IBook[] = await getBooks();
+    const books: IBook[] = await fetchBooks();
 
     // Find specific book
     const book = books.find((b) => b.bookId === id);

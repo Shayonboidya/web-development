@@ -1,14 +1,18 @@
-import React from 'react';
-import Banner from './component/Home Page/Banner';
-import Books from './component/Home Page/Books';
+import React, { Suspense } from "react";
+import Banner from "./component/Home Page/Banner";
+import Books from "./component/Home Page/Books";
+import BooksSkeleton from "./component/BookSkeleton";
 
-const page = () => {
+const Page = () => {
     return (
         <div>
-            <Banner></Banner>
-            <Books></Books>
+            <Banner />
+
+            <Suspense fallback={<BooksSkeleton />}>
+                <Books />
+            </Suspense>
         </div>
     );
 };
 
-export default page;
+export default Page;
